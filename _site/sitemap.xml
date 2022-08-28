@@ -2,49 +2,49 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
     <url>
-      <loc>http://localhost:4000/posts/Hello-World</loc>
+      <loc>https://indicator0.github.io/posts/Hello-World</loc>
       
         <lastmod>2022-07-20T00:00:00+02:00</lastmod>
       
     </url>
     
     <url>
-      <loc>http://localhost:4000/posts/why_i_use_digital_ice_technology</loc>
+      <loc>https://indicator0.github.io/posts/why_i_use_digital_ice_technology</loc>
       
         <lastmod>2017-07-03T00:00:00+02:00</lastmod>
       
     </url>
     
     <url>
-      <loc>http://localhost:4000/posts/what_film_camera_to_buy</loc>
+      <loc>https://indicator0.github.io/posts/what_film_camera_to_buy</loc>
       
         <lastmod>2015-05-22T00:00:00+02:00</lastmod>
       
     </url>
     
     <url>
-      <loc>http://localhost:4000/posts/my_gear</loc>
+      <loc>https://indicator0.github.io/posts/my_gear</loc>
       
         <lastmod>2015-04-16T00:00:00+02:00</lastmod>
       
     </url>
     
     <url>
-      <loc>http://localhost:4000/posts/why-I-shoot-film</loc>
+      <loc>https://indicator0.github.io/posts/why-I-shoot-film</loc>
       
         <lastmod>2015-03-24T00:00:00+01:00</lastmod>
       
     </url>
     
     <url>
-      <loc>http://localhost:4000/posts/automatically-create-html-posts-in-jekyll-with-thor</loc>
+      <loc>https://indicator0.github.io/posts/automatically-create-html-posts-in-jekyll-with-thor</loc>
       
         <lastmod>2014-11-27T00:00:00+01:00</lastmod>
       
     </url>
     
     <url>
-      <loc>http://localhost:4000/posts/josef_koudelka_exiles</loc>
+      <loc>https://indicator0.github.io/posts/josef_koudelka_exiles</loc>
       
         <lastmod>2014-08-05T00:00:00+02:00</lastmod>
       
@@ -64,7 +64,7 @@
     
     
     <url>
-        <loc>http://localhost:4000/critiq/b_w_q1_2021</loc>
+        <loc>https://indicator0.github.io/critiq/b_w_q1_2021</loc>
     </url>
     
     
@@ -74,7 +74,7 @@
     
     
     <url>
-        <loc>http://localhost:4000/critiq/floisvos_2021</loc>
+        <loc>https://indicator0.github.io/critiq/floisvos_2021</loc>
     </url>
     
     
@@ -84,7 +84,7 @@
     
     
     <url>
-        <loc>http://localhost:4000/posts/</loc>
+        <loc>https://indicator0.github.io/posts/</loc>
     </url>
     
     
@@ -94,7 +94,7 @@
     
     
     <url>
-        <loc>http://localhost:4000/about/</loc>
+        <loc>https://indicator0.github.io/about/</loc>
     </url>
     
     
@@ -104,7 +104,7 @@
     
     
     <url>
-        <loc>http://localhost:4000/photo_essays/yunnan/</loc>
+        <loc>https://indicator0.github.io/photo_essays/yunnan/</loc>
     </url>
     
     
@@ -114,7 +114,7 @@
     
     
     <url>
-        <loc>http://localhost:4000/</loc>
+        <loc>https://indicator0.github.io/</loc>
     </url>
     
     
@@ -124,7 +124,7 @@
     
     
     <url>
-        <loc>http://localhost:4000/scripts/sample_post</loc>
+        <loc>https://indicator0.github.io/scripts/sample_post</loc>
     </url>
     
     
@@ -136,7 +136,7 @@
     
     
     <url>
-        <loc>http://localhost:4000/posts/page2/</loc>
+        <loc>https://indicator0.github.io/posts/page2/</loc>
     </url>
     
     

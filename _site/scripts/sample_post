@@ -54,7 +54,7 @@
     <meta property="fb:admins" content="100006320713108">
 
     
-      <meta property="og:url" content="http://localhost:4000/scripts/sample_post" />
+      <meta property="og:url" content="https://indicator0.github.io/scripts/sample_post" />
     
 
     
@@ -62,9 +62,9 @@
     
 
     
-      <meta property="og:image" content="http://localhost:4000/uploads/--title--/" />
-      <meta property="og:image" content="http://localhost:4000/uploads/--title--/" />
-      <meta property="og:image" content="http://localhost:4000/uploads/--title--/" />
+      <meta property="og:image" content="https://indicator0.github.io/uploads/--title--/" />
+      <meta property="og:image" content="https://indicator0.github.io/uploads/--title--/" />
+      <meta property="og:image" content="https://indicator0.github.io/uploads/--title--/" />
     
 
     
@@ -90,11 +90,11 @@
     
 
     
-      <meta name="twitter:url" content="http://localhost:4000/scripts/sample_post" />
-      <meta name="twitter:image0" content="http://localhost:4000/uploads/--title--/">
-      <meta name="twitter:image1" content="http://localhost:4000/uploads/--title--/">
-      <meta name="twitter:image2" content="http://localhost:4000/uploads/--title--/">
-      <meta name="twitter:image3" content="http://localhost:4000/uploads/--title--/">
+      <meta name="twitter:url" content="https://indicator0.github.io/scripts/sample_post" />
+      <meta name="twitter:image0" content="https://indicator0.github.io/uploads/--title--/">
+      <meta name="twitter:image1" content="https://indicator0.github.io/uploads/--title--/">
+      <meta name="twitter:image2" content="https://indicator0.github.io/uploads/--title--/">
+      <meta name="twitter:image3" content="https://indicator0.github.io/uploads/--title--/">
     
     
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -227,13 +227,13 @@
     
     <ul>
       <li>
-        <a class="btn" href="https://twitter.com/intent/tweet?text=--title--&url=http://localhost:4000/scripts/sample_post&via=waldo&related=@waldo" rel="nofollow" target="_blank" title="Share on Twitter">Twitter</a>
+        <a class="btn" href="https://twitter.com/intent/tweet?text=--title--&url=https://indicator0.github.io/scripts/sample_post&via=waldo&related=@waldo" rel="nofollow" target="_blank" title="Share on Twitter">Twitter</a>
       </li>
       <li>
-        <a class="btn" href="https://facebook.com/sharer.php?u=http://localhost:4000/scripts/sample_post" rel="nofollow" target="_blank" title="Share on Facebook">Facebook</a>
+        <a class="btn" href="https://facebook.com/sharer.php?u=https://indicator0.github.io/scripts/sample_post" rel="nofollow" target="_blank" title="Share on Facebook">Facebook</a>
       </li>
       <li>
-        <a class="btn" href="https://plus.google.com/share?url=http://localhost:4000/scripts/sample_post" rel="nofollow" target="_blank" title="Share on Google+">Google+</a>
+        <a class="btn" href="https://plus.google.com/share?url=https://indicator0.github.io/scripts/sample_post" rel="nofollow" target="_blank" title="Share on Google+">Google+</a>
       </li>
     </ul>
   </div>

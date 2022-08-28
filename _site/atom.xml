@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>indicator0.github.io</title>
- <link href="http://localhost:4000/atom.xml" rel="self"/>
- <link href="http://localhost:4000/"/>
- <updated>2022-08-28T13:45:06+02:00</updated>
- <id>http://localhost:4000/</id>
+ <link href="https://indicator0.github.io/atom.xml" rel="self"/>
+ <link href="https://indicator0.github.io/"/>
+ <updated>2022-08-28T15:07:55+02:00</updated>
+ <id>https://indicator0.github.io/</id>
  <author>
    <name>indicator0.github.io</name>
  </author>
@@ -13,9 +13,9 @@
  
    <entry>
      <title>Hello World</title>
-     <link href="http://localhost:4000/posts/Hello-World"/>
+     <link href="https://indicator0.github.io/posts/Hello-World"/>
      <updated>2022-07-20T00:00:00+02:00</updated>
-     <id>http://localhost:4000/posts/Hello-World</id>
+     <id>https://indicator0.github.io/posts/Hello-World</id>
      <content type="html">&lt;p&gt;Hi,&lt;/p&gt;
 
 &lt;p&gt;this is the first post for my blog.
@@ -58,9 +58,9 @@ Also I plan to write some thoughts about photography in general like from where 
  
    <entry>
      <title>Why I use Digital ICE Technology</title>
-     <link href="http://localhost:4000/posts/why_i_use_digital_ice_technology"/>
+     <link href="https://indicator0.github.io/posts/why_i_use_digital_ice_technology"/>
      <updated>2017-07-03T00:00:00+02:00</updated>
-     <id>http://localhost:4000/posts/why_i_use_digital_ice_technology</id>
+     <id>https://indicator0.github.io/posts/why_i_use_digital_ice_technology</id>
      <content type="html">&lt;p&gt;Hey there!&lt;/p&gt;
 
 &lt;p&gt;A few days ago I accidentally scanned the same negative twice.
@@ -145,9 +145,9 @@ Yes thats true! When you have a raw scan and then export it to Photoshop or Ligh
  
    <entry>
      <title>What film camera to buy</title>
-     <link href="http://localhost:4000/posts/what_film_camera_to_buy"/>
+     <link href="https://indicator0.github.io/posts/what_film_camera_to_buy"/>
      <updated>2015-05-22T00:00:00+02:00</updated>
-     <id>http://localhost:4000/posts/what_film_camera_to_buy</id>
+     <id>https://indicator0.github.io/posts/what_film_camera_to_buy</id>
      <content type="html">&lt;p&gt;There are hundreds of blog posts out there with extended reviews and detailed explanations on which film camera you should buy.&lt;/p&gt;
 
 &lt;p&gt;The &lt;strong&gt;only problem&lt;/strong&gt; with these blog posts / reviews is that they provide too much information, and analyze many cameras that cover &lt;strong&gt;different needs&lt;/strong&gt; and &lt;strong&gt;different budgets&lt;/strong&gt;. They tend to be more confusing than helpful.&lt;/p&gt;
@@ -281,9 +281,9 @@ Each section will have &lt;strong&gt;two subsections&lt;/strong&gt; based on &lt
  
    <entry>
      <title>My photography gear</title>
-     <link href="http://localhost:4000/posts/my_gear"/>
+     <link href="https://indicator0.github.io/posts/my_gear"/>
      <updated>2015-04-16T00:00:00+02:00</updated>
-     <id>http://localhost:4000/posts/my_gear</id>
+     <id>https://indicator0.github.io/posts/my_gear</id>
      <content type="html">&lt;p&gt;The second most popular question following the &lt;a href=&quot;https://rpk.io/posts/why-I-shoot-film&quot;&gt;“Why you shoot film?”&lt;/a&gt; is &lt;strong&gt;“What gear you own and use?”&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;So this is the list of all the gear I own and use!&lt;/p&gt;
@@ -430,9 +430,9 @@ Epson Perfection V550 Photo&lt;/p&gt;
  
    <entry>
      <title>Why I shoot Film</title>
-     <link href="http://localhost:4000/posts/why-I-shoot-film"/>
+     <link href="https://indicator0.github.io/posts/why-I-shoot-film"/>
      <updated>2015-03-24T00:00:00+01:00</updated>
-     <id>http://localhost:4000/posts/why-I-shoot-film</id>
+     <id>https://indicator0.github.io/posts/why-I-shoot-film</id>
      <content type="html">&lt;h2 id=&quot;slow-life---the-wait&quot;&gt;&lt;strong&gt;Slow Life - The wait&lt;/strong&gt;&lt;/h2&gt;
 
 &lt;p&gt;When you have &lt;strong&gt;36&lt;/strong&gt; or &lt;strong&gt;10&lt;/strong&gt; (for my medium format 6x7) frames available you take your time before you decide to shoot.&lt;/p&gt;
@@ -564,9 +564,9 @@ Loading the camera, pushing the film, developing and printing the rolls with my 
  
    <entry>
      <title>Automatically create HTML posts in Jekyll with Thor</title>
-     <link href="http://localhost:4000/posts/automatically-create-html-posts-in-jekyll-with-thor"/>
+     <link href="https://indicator0.github.io/posts/automatically-create-html-posts-in-jekyll-with-thor"/>
      <updated>2014-11-27T00:00:00+01:00</updated>
-     <id>http://localhost:4000/posts/automatically-create-html-posts-in-jekyll-with-thor</id>
+     <id>https://indicator0.github.io/posts/automatically-create-html-posts-in-jekyll-with-thor</id>
      <content type="html">&lt;h2 id=&quot;the-problem&quot;&gt;The Problem&lt;/h2&gt;
 
 &lt;p&gt;&lt;sup&gt;This article is the sequel to the &lt;a href=&quot;https://rpk.io/posts/automatically-create-jekyll-posts-with-thor&quot;&gt;the previous Thor automation tutorial&lt;/a&gt; posted some months ago.&lt;sup&gt;&lt;/sup&gt;&lt;/sup&gt;&lt;/p&gt;
@@ -693,9 +693,9 @@ Posts written in Markdown made it too difficult to customize the presentation so
  
    <entry>
      <title>Josef Koudelka - Exiles</title>
-     <link href="http://localhost:4000/posts/josef_koudelka_exiles"/>
+     <link href="https://indicator0.github.io/posts/josef_koudelka_exiles"/>
      <updated>2014-08-05T00:00:00+02:00</updated>
-     <id>http://localhost:4000/posts/josef_koudelka_exiles</id>
+     <id>https://indicator0.github.io/posts/josef_koudelka_exiles</id>
      <content type="html">&lt;p&gt;&lt;strong&gt;Just republished&lt;/strong&gt;—one of the all-time great photo books.&lt;/p&gt;
 
 &lt;p&gt;To me, &lt;a href=&quot;https://www.magnumphotos.com/C.aspx?VP3=CMS3&amp;amp;VF=MAGO31_10_VForm&amp;amp;ERID=24KL535C7T&quot;&gt;Josef Koudelka&lt;/a&gt; is one of the most brilliant photographers out there and his books ‘Exiles’ and ‘Gypsies’ are the masterpieces that made his reputation.&lt;br /&gt;

@@ -1,0 +1,80 @@
+I"<p>Hey there!</p>
+
+<p>A few days ago I accidentally scanned the same negative twice.
+The first one without any enhancement features enabled, and the second one with my default settings i.e. Digital ICE technology enabled.</p>
+
+<p>So I thought, why not post the results of this accident?</p>
+
+<h2 id="first-things-first">First things first</h2>
+<p>My scanner is an <strong>Epson Perfection V550</strong> which supports Digital ICE technology.</p>
+
+<blockquote>
+  <p>Digital ICE Technology is a hardware-based dust removal method that is more accurate than the Dust Removal feature. Digital ICE Technology can remove dust or scratch marks without affecting the image composition. However, it takes longer to scan using Digital ICE Technology and also uses more of your system resources.</p>
+</blockquote>
+
+<blockquote>
+  <p><a href="https://files.support.epson.com/htmldocs/prv5ph/prv5phug/featr_3.htm">Read more about Digital ICE</a></p>
+</blockquote>
+
+<h2 id="lets-see-the-results-now">Lets see the results now:</h2>
+
+<h4 id="the-same-picture-scanned-with-three-different-ways-click-for-high-resolution">The same picture scanned with three different ways. (Click for high-resolution)</h4>
+
+<p><a href="/images/posts/digital_ice/all_no_tool.jpg" target="_blank" rel="no tool"><img src="/images/posts/digital_ice/all_no_tool.jpg" alt="All enhancements disabled" /></a>
+<span class="center_align">
+  All enhancements disabled
+</span></p>
+
+<p><a href="/images/posts/digital_ice/all_dust.jpg" target="_blank" rel="Dust removal (Medium) Enabled"><img src="/images/posts/digital_ice/all_dust.jpg" alt="Dust removal (Medium) Enabled" /></a>
+<span class="center_align">
+  Dust removal (Medium) Enabled
+</span></p>
+
+<p><a href="/images/posts/digital_ice/all_ice.jpg" target="_blank" rel="Digital ICE Enabled"><img src="/images/posts/digital_ice/all_ice.jpg" alt="Digital ICE Enabled" /></a>
+<span class="center_align">
+  Digital ICE Enabled
+</span></p>
+
+<p>It’s difficult to spot the differences, so lets do some cropping.</p>
+
+<p><a href="/images/posts/digital_ice/general_crop.png" target="_blank" rel="Dust removal (Medium) Enabled"><img src="/images/posts/digital_ice/general_crop.png" alt="Details" /></a>
+<span class="center_align">
+  Click for high-resolution
+</span></p>
+
+<p>Detail showing image degradation (GIF):
+<img src="/images/posts/digital_ice/umbrella_full_crop.gif" alt="Sign Crop - Digital ICE" /></p>
+
+<p><br /></p>
+
+<p>Detail showing image degradation and spot removals:
+<img src="/images/posts/digital_ice/sign_crop.png" alt="Sign Crop - Digital ICE" /></p>
+
+<p><br /></p>
+
+<h2 id="my-thoughts">My thoughts</h2>
+
+<p><strong>Do not expect professional print quality scans with a $200 flatbed scanner!</strong>
+It can of course, produce high quality results adequate for printing and excellent for digital use (website - social media).</p>
+
+<p>With that in mind I choose to use <strong>Digital ICE</strong> in my scans because it reduces the time I have to spend in post processing. 
+Yes there is some image degradation, but for me its not noticeable, especially in <em>jpeg</em> images three times smaller than the original scans.</p>
+
+<p>Now Dust Removal is the worst enhancement in my opinion. It does a good job removing dust, but oftentimes also removes other artifacts that may be of significance.
+The good thing is that it’s pretty fast compared to the Digital ICE technology.</p>
+
+<p>Last but not least, not using any of the available enhancements is considered by many the best option to get the finest quality.
+Yes thats true! When you have a raw scan and then export it to Photoshop or Lightroom you can achieve the best quality.</p>
+
+<p><strong>However, that requires a considerable amount of time which, in my opinion, the difference in quality does not justify.</strong></p>
+
+<h3 id="tldr"><strong>TL;DR</strong></h3>
+
+<ul>
+  <li><strong>Digital Ice</strong> Removes dust, scratches AND detail</li>
+  <li><strong>Dust Removal</strong> Removes dust but not only that</li>
+  <li><strong>No Enhancements used</strong> Adds extra work to post processing</li>
+</ul>
+
+<p>Happy Scanning! :)</p>
+:ET
