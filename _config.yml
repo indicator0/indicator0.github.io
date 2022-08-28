@@ -1,0 +1,31 @@
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge
+permalink: posts/:title
+plugins: [jekyll-paginate]
+paginate: 6
+paginate_path: "posts/page:num"
+navigation:
+    - text: Photo essays
+      identity: photo_essays
+      url: /
+    - text: Posts
+      url: /posts/
+    - text: About
+      url: /about/
+name: indicator0.github.io
+email: waldo12777@126.com
+url: https://indicator0.github.io
+myname: "Waldo Yang"
+title: "Waldo Yang's Photography"
+description: "Waldo Yang's Photography."
+twitter: waldo
+github: indicator0
+instagram: waldoschaeffer
+facebook_page: https://www.facebook.com/kostis.karampinas/
+gravatar_url: https://s.gravatar.com/avatar/8bc43bee9040db6434f0842501858358?s=80
+exclude:
+    - .jekyll-cache

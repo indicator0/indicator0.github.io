@@ -1,0 +1,45 @@
+---
+layout: photo_post
+title: In the south of the cloud
+description: A magical place
+group: "photo_navigation"
+path: photo_essays
+next_project: Burning Man 2015
+next_project_path: burning_man_2015
+categories: [Phtography, Analog, 35mm, Black and White]
+images:
+  - yunnan_1.jpg
+  - yunnan_2.jpg
+  - yunnan_3.jpg
+---
+
+<section class="byline">
+  <ul class="project-icons">
+    <li>
+      <i class="fa fa-calendar-o"></i> Summer 2022
+    </li>
+    <li>
+      <i class="fa fa-map-marker"></i> CN - YN
+    </li>
+    <li>
+      <i class="fa fa-camera"></i> Nikon D850
+    </li>
+    <li>
+      <i class="fa fa-film"></i> Arista EDU Ultra 400
+    </li>
+  </ul>
+</section>
+<div class="intro-text">
+  <blockquote>
+    Days go by but I don't seem to notice them <br>
+    Just a roundabout of turns <br>
+    All these nights I lie awaken on my own <br>
+    My pale fire hardly burns
+  </blockquote>
+</div>
+
+<ul>
+  {% for img in page.images %}
+    <li><a href="/uploads/yunnan/{{img}}" data-lightbox="image-1"><img src="/uploads/yunnan/{{img}}"alt="{{img}}" /></a></li>
+  {% endfor %}
+</ul>
