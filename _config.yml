@@ -17,7 +17,7 @@ navigation:
     - text: About
       url: /about/
 name: indicator0.github.io
-email: waldo12777@126.com
+email: waldo12777@gmail.com
 baseurl: /waldo-photography
 url: https://indicator0.github.io
 myname: "Waldo Yang"
@@ -26,7 +26,7 @@ description: "Waldo Yang's Photography."
 twitter: waldo
 github: indicator0
 instagram: waldoschaeffer
-facebook_page: https://www.facebook.com/kostis.karampinas/
+facebook_page: https://www.facebook.com/zhihao.yang.92
 gravatar_url: https://s.gravatar.com/avatar/8bc43bee9040db6434f0842501858358?s=80
 exclude:
     - .jekyll-cache

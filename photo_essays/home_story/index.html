@@ -1,0 +1,52 @@
+---
+layout: photo_post
+title: Home Stories
+description: Everyday, everywhere and everyone
+group: "photo_navigation"
+path: photo_essays
+next_project: In the Sount of the Cloud
+next_project_path: "yunnan"
+categories: [Phtography, Analog, Color Reverse]
+images:
+  - home_story_1.jpg
+  - home_story_2.jpg
+  - home_story_3.jpg
+  - home_story_4.jpg
+  - home_story_5.jpg
+  - home_story_6.jpg
+  - home_story_7.jpg
+  - home_story_8.jpg
+  - home_story_9.jpg
+  - home_story_10.jpg
+  - home_story_11.jpg
+  - home_story_12.jpg
+---
+
+<section class="byline">
+  <ul class="project-icons">
+    <li>
+      <i class="fa fa-calendar-o"></i> Summer 2022
+    </li>
+    <li>
+      <i class="fa fa-map-marker"></i> CN - BJ
+    </li>
+    <li>
+      <i class="fa fa-camera"></i> Canon EOS 5
+    </li>
+    <li>
+      <i class="fa fa-film"></i> Provia 100f
+    </li>
+  </ul>
+</section>
+<div class="intro-text">
+  <blockquote>
+    You are too familiar with things happen around your home <br>
+    But things are also interesting.
+  </blockquote>
+</div>
+
+<ul>
+  {% for img in page.images %}
+    <li><a href="/uploads/home_story/{{img}}" data-lightbox="image-1"><img src="/uploads/home_story/{{img}}"alt="{{img}}" /></a></li>
+  {% endfor %}
+</ul>
