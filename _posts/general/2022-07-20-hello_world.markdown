@@ -7,7 +7,7 @@ tags: [General - First Post]
 identifier: posts
 ---
 
-** Hi,
+**Hi**,
    This is my first blog on my photography site.
    
    To some extent, building a website is what I dedicated (if time allows) to do.
@@ -17,4 +17,4 @@ identifier: posts
    Here, I will share my photo posts and ideas. Hope you enjoy it.
    
    
-** Waldo
+**Waldo**
