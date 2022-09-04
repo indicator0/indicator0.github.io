@@ -1,0 +1,19 @@
+---
+layout: post_layout
+title: My Photography gears
+avatar: /images/logo2.png
+category: Photography
+tags: [Photography - Equipments]
+identifier: posts
+---
+
+**Photography is not about gears**—but gears matter.  
+  
+To me, [D850](https://www.nikon.se/sv_SE/product/digital-cameras/slr/professional/d850) is the most important one.
+As a full-frame 135 DSLR, it satisfies all the performance I need (both photography performance and controlling performance).
+F mount provides me with the ability to connect the world most versatile and reliable lens group. From 1950s to now.
+
+---------------
+
+![Web](/images/posts/my_gear/1035520.jpg "Web")
+>NIKON D850

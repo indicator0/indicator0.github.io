@@ -1,0 +1,155 @@
+I"0/<p><strong>The Problem</strong></p>
+
+<p>Jekyll is a simple, blog-aware, static site generator so it tracks posts and publication dates to produce the static content.</p>
+
+<p><em>The naming convention for post files is important, and must follow the 
+format:<br />
+<code class="language-plaintext highlighter-rouge">YEAR-MONTH-DAY-title.MARKUP</code></em></p>
+
+<p>So each time you create a new post you have to follow these convention. 
+In addition to this every post has a <code class="language-plaintext highlighter-rouge">YAML front matter block</code> which is processed by Jekyll and contains predefined and custom variables.</p>
+
+<p>Hence we have to automate these two things:</p>
+
+<ol>
+  <li>the creation of the file with the correct name</li>
+  <li>the <em>YAML front matter block</em></li>
+</ol>
+
+<p><strong>The solution</strong></p>
+
+<p>I chose <a href="https://github.com/erikhuda/thor">Thor</a> for this job as it is a very simple but powerful tool.</p>
+
+<p>In my research I have rejected two other solutions</p>
+
+<ul>
+  <li>a simple Rake task</li>
+  <li>a simple <a href="https://gist.github.com/rpk0/7ef3ba85bff2fbbba342">ruby script</a> with <a href="https://github.com/leejarvis/slop">Slop Gem</a> (lightweight option parsing)</li>
+</ul>
+
+<p>if you have a Gemfile add the following gems</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gem 'thor'
+gem 'stringex'
+</code></pre></div></div>
+
+<p>and run <code class="language-plaintext highlighter-rouge">bundle isntall</code></p>
+
+<p>if you do not have a gemfile just (<code class="language-plaintext highlighter-rouge">sudo if required</code>) install the two gems</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gem install thor
+gem install stringex
+</code></pre></div></div>
+
+<p>Now create a <code class="language-plaintext highlighter-rouge">post.thor</code> file in the root directory of the your Jekyll project with the following contents:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">require</span> <span class="s2">"stringex"</span>
+<span class="nb">require</span> <span class="s2">"thor"</span>
+
+<span class="k">class</span> <span class="nc">Post</span> <span class="o">&lt;</span> <span class="no">Thor</span>
+  <span class="n">desc</span> <span class="s2">"new TITLE"</span><span class="p">,</span> <span class="s2">"Create a new post"</span>
+
+  <span class="n">method_option</span> <span class="ss">:date</span><span class="p">,</span> <span class="ss">aliases: </span><span class="s2">"-d"</span><span class="p">,</span>
+                       <span class="ss">default: </span><span class="no">Time</span><span class="p">.</span><span class="nf">now</span><span class="p">.</span><span class="nf">strftime</span><span class="p">(</span><span class="s1">'%Y-%m-%d'</span><span class="p">),</span>
+                       <span class="ss">desc: </span><span class="s2">"Change the current time to the value provided"</span>
+  <span class="n">method_option</span> <span class="ss">:category</span><span class="p">,</span> <span class="ss">aliases: </span><span class="s2">"-c"</span><span class="p">,</span>
+                           <span class="ss">default: </span><span class="s2">"General"</span><span class="p">,</span>
+                           <span class="ss">type: :string</span><span class="p">,</span>
+                           <span class="ss">desc: </span><span class="s2">"Add the post's category, default 'General'"</span>
+  <span class="n">method_option</span> <span class="ss">:tags</span><span class="p">,</span> <span class="ss">aliases: </span><span class="s2">"-t"</span><span class="p">,</span>
+                       <span class="ss">type: :string</span><span class="p">,</span>
+                       <span class="ss">desc: </span><span class="s2">"Add post tags, comma-separated string"</span>
+
+  <span class="k">def</span> <span class="nf">new</span><span class="p">(</span><span class="o">*</span><span class="n">title</span><span class="p">)</span>
+    <span class="n">title</span> <span class="o">=</span> <span class="n">title</span><span class="p">.</span><span class="nf">join</span><span class="p">(</span><span class="s2">" "</span><span class="p">)</span>
+    <span class="n">category</span> <span class="o">=</span> <span class="n">options</span><span class="p">[</span><span class="ss">:category</span><span class="p">]</span>
+    <span class="c1"># fomat tags in the way you want them to be displayed</span>
+    <span class="n">tags</span> <span class="o">=</span> <span class="n">options</span><span class="p">[</span><span class="ss">:tags</span><span class="p">].</span><span class="nf">gsub</span><span class="p">(</span><span class="sr">/\W+/</span><span class="p">,</span> <span class="s2">" - "</span><span class="p">)</span> <span class="k">if</span> <span class="n">options</span><span class="p">[</span><span class="ss">:tags</span><span class="p">]</span>
+    <span class="n">filename</span> <span class="o">=</span> <span class="s2">"_posts/</span><span class="si">#{</span><span class="n">category</span><span class="p">.</span><span class="nf">downcase</span><span class="si">}</span><span class="s2">/</span><span class="si">#{</span><span class="n">options</span><span class="p">[</span><span class="ss">:date</span><span class="p">]</span><span class="si">}</span><span class="s2">-</span><span class="si">#{</span><span class="n">title</span><span class="p">.</span><span class="nf">to_url</span><span class="si">}</span><span class="s2">.md"</span>
+
+    <span class="k">if</span> <span class="no">File</span><span class="p">.</span><span class="nf">exist?</span><span class="p">(</span><span class="n">filename</span><span class="p">)</span>
+      <span class="nb">abort</span><span class="p">(</span><span class="s2">"</span><span class="si">#{</span><span class="n">filename</span><span class="si">}</span><span class="s2"> already exists!"</span><span class="p">)</span>
+    <span class="k">end</span>
+
+    <span class="nb">puts</span> <span class="s2">"Creating new post: </span><span class="si">#{</span><span class="n">filename</span><span class="si">}</span><span class="s2">"</span>
+    <span class="nb">open</span><span class="p">(</span><span class="n">filename</span><span class="p">,</span> <span class="s1">'w'</span><span class="p">)</span> <span class="k">do</span> <span class="o">|</span><span class="n">post</span><span class="o">|</span>
+      <span class="n">post</span><span class="p">.</span><span class="nf">puts</span> <span class="s2">"---"</span>
+      <span class="n">post</span><span class="p">.</span><span class="nf">puts</span> <span class="s2">"layout: post_layout"</span>
+      <span class="n">post</span><span class="p">.</span><span class="nf">puts</span> <span class="s2">"title: </span><span class="se">\"</span><span class="si">#{</span><span class="n">title</span><span class="p">.</span><span class="nf">gsub</span><span class="p">(</span><span class="sr">/&amp;/</span><span class="p">,</span><span class="s1">'&amp;amp;'</span><span class="p">)</span><span class="si">}</span><span class="se">\"</span><span class="s2">"</span>
+      <span class="n">post</span><span class="p">.</span><span class="nf">puts</span> <span class="s2">"avatar:"</span>
+      <span class="n">post</span><span class="p">.</span><span class="nf">puts</span> <span class="s2">"category: </span><span class="si">#{</span><span class="n">category</span><span class="si">}</span><span class="s2">"</span>
+      <span class="n">post</span><span class="p">.</span><span class="nf">puts</span> <span class="s2">"tags: </span><span class="si">#{</span><span class="n">tags</span><span class="si">}</span><span class="s2">"</span>
+      <span class="n">post</span><span class="p">.</span><span class="nf">puts</span> <span class="s2">"path: posts"</span>
+      <span class="n">post</span><span class="p">.</span><span class="nf">puts</span> <span class="s2">"---"</span>
+    <span class="k">end</span>
+
+    <span class="c1"># opens the md file in your default editor</span>
+    <span class="nb">system</span> <span class="p">(</span><span class="s2">"</span><span class="si">#{</span><span class="no">ENV</span><span class="p">[</span><span class="s1">'EDITOR'</span><span class="p">]</span><span class="si">}</span><span class="s2"> </span><span class="si">#{</span><span class="n">filename</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+
+    <span class="nb">puts</span> <span class="s2">"New post created: </span><span class="si">#{</span><span class="n">filename</span><span class="si">}</span><span class="s2">"</span>
+  <span class="k">end</span>
+<span class="k">end</span>
+</code></pre></div></div>
+
+<p>Once you have this created, you can run <code class="language-plaintext highlighter-rouge">thor list</code> from the command line and you should see the following output:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>post
+----
+thor post:new TITLE  # Create a new post
+</code></pre></div></div>
+
+<p>In this example, the <code class="language-plaintext highlighter-rouge">method_options</code> have been supplied with several parameters.<br />
+The first parameter is the full name of the option, this is translated into a – option on the command line.<br />
+The second is the alias option to provide a short version of this option.<br />
+The last one is the <code class="language-plaintext highlighter-rouge">desc</code> parameter which adds a description for the option,when printing out the full usage for a command.<br />
+for example:</p>
+
+<p>If you run <code class="language-plaintext highlighter-rouge">thor post:help new</code> you should see the following output:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Usage:
+  thor post:new TITLE
+
+Options:
+  -d, [--date=DATE]          # Change the current time to the value provided
+                             # Default: 2014-10-16 *the current date*
+  -c, [--category=CATEGORY]  # Add the post's category
+                             # Default: General
+  -t, [--tags=TAGS]          # Add post tags, comma-separated string
+
+Create a new post
+</code></pre></div></div>
+
+<p>So that command to generate this post was:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>thor post:new Automatically create jekyll posts with Thor -c Programming -t "Programming, Jekyll, Thor, Ruby, Automation"
+</code></pre></div></div>
+
+<p>which creates the file <code class="language-plaintext highlighter-rouge">_posts/2014-10-16-automatically-create-jekyll-posts-with-thor.md</code> and opens it in your default editor (<code class="language-plaintext highlighter-rouge">printenv | grep EDITOR</code>).</p>
+
+<p><strong>Optional</strong></p>
+
+<p>You can create an executable file in the current directory and start the simple CLI with a call to <code class="language-plaintext highlighter-rouge">Post.start(ARGV)</code></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#!/usr/bin/env ruby
+require './post'
+
+trap('SIGINT') do
+  puts "\nInterrupt received exiting..."
+  exit
+end
+
+Post.start(ARGV)
+</code></pre></div></div>
+
+<p>In this configuration, which can be useful in some cases
+you have to change the main script to <code class="language-plaintext highlighter-rouge">.rb</code></p>
+
+<p>To execute the post task you have to run 
+<code class="language-plaintext highlighter-rouge">ruby create_post new TITLE, [Options]</code></p>
+
+<p><strong>Future work</strong></p>
+
+<p>In a future post I’ll be writing how I have automated the photo essay posts generation which are not markdown files but complex HTML files.</p>
+
+<p><sup><em>references: https://jonasforsberg.se/2012/12/28/create-jekyll-posts-from-the-command-line</em></sup></p>
+:ET

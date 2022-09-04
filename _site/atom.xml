@@ -4,7 +4,7 @@
  <title>indicator0.github.io</title>
  <link href="https://indicator0.github.io/atom.xml" rel="self"/>
  <link href="https://indicator0.github.io/"/>
- <updated>2022-09-03T22:21:36+02:00</updated>
+ <updated>2022-09-04T21:45:49+02:00</updated>
  <id>https://indicator0.github.io/</id>
  <author>
    <name>indicator0.github.io</name>
@@ -12,724 +12,201 @@
 
  
    <entry>
-     <title>Hello World</title>
-     <link href="https://indicator0.github.io/posts/Hello-World"/>
-     <updated>2022-07-20T00:00:00+02:00</updated>
-     <id>https://indicator0.github.io/posts/Hello-World</id>
-     <content type="html">&lt;p&gt;Hi,&lt;/p&gt;
+     <title>Automatically create Jekyll posts with Thor</title>
+     <link href="https://indicator0.github.io/posts/automatically-create-jekyll-posts-with-thor"/>
+     <updated>2022-09-02T00:00:00+02:00</updated>
+     <id>https://indicator0.github.io/posts/automatically-create-jekyll-posts-with-thor</id>
+     <content type="html">&lt;p&gt;&lt;strong&gt;The Problem&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;this is the first post for my blog.
-So let me explain why I created yet another blog site..&lt;/p&gt;
+&lt;p&gt;Jekyll is a simple, blog-aware, static site generator so it tracks posts and publication dates to produce the static content.&lt;/p&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Firstly&lt;/strong&gt;, Because I can!&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Secondly&lt;/strong&gt;, I wanted to be able to have my uploaded photographs somewhere clustered and properly displayed. I call them photoessays and you can find them in the &lt;a href=&quot;https://rpk.io&quot;&gt;photography&lt;/a&gt; section on the left&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Lastly&lt;/strong&gt;, I wanted to keep somewhere interesting stuff related to my day job as a developer. Furthermore posting solutions of interesting problems and challanges might help others.&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;The naming convention for post files is important, and must follow the 
+format:&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR-MONTH-DAY-title.MARKUP&lt;/code&gt;&lt;/em&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;so-this-site-is-seperated-into-two-topics&quot;&gt;So this site is seperated into two topics,&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;the first and main one is photography.&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;So each time you create a new post you have to follow these convention. 
+In addition to this every post has a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YAML front matter block&lt;/code&gt; which is processed by Jekyll and contains predefined and custom variables.&lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;In this section I am going to post chunks of my work as an amatuer photographer.
-&lt;strong&gt;Digital photogrpahy&lt;/strong&gt;, &lt;strong&gt;Film photography&lt;/strong&gt; (&lt;strong&gt;normal format&lt;/strong&gt; and &lt;strong&gt;medium format&lt;/strong&gt;), and everything else that falls into my hands over time.
-Also I plan to write some thoughts about photography in general like from where a derive inspiration, and how photography changed my vision.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;the second topic is the one I am doing for living, programming.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;The last 2 years I am an actively Ruby and Ruby on Rails developer, so I will write any interesting stuff I meet on my way of becoming the next billionere CTO (not)&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Now if anything else beyond these two topics attract my attention and deserves a mention I would not hesitate to analyse it here.&lt;/p&gt;
-
-&lt;p&gt;That’s it.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://farm4.staticflickr.com/3782/12329014655_9a6be31676_c.jpg&quot; alt=&quot;tree&quot; title=&quot;tree&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;cya!&lt;/p&gt;
-</content>
-   </entry>
- 
-   <entry>
-     <title>Why I use Digital ICE Technology</title>
-     <link href="https://indicator0.github.io/posts/why_i_use_digital_ice_technology"/>
-     <updated>2017-07-03T00:00:00+02:00</updated>
-     <id>https://indicator0.github.io/posts/why_i_use_digital_ice_technology</id>
-     <content type="html">&lt;p&gt;Hey there!&lt;/p&gt;
-
-&lt;p&gt;A few days ago I accidentally scanned the same negative twice.
-The first one without any enhancement features enabled, and the second one with my default settings i.e. Digital ICE technology enabled.&lt;/p&gt;
-
-&lt;p&gt;So I thought, why not post the results of this accident?&lt;/p&gt;
-
-&lt;h2 id=&quot;first-things-first&quot;&gt;First things first&lt;/h2&gt;
-&lt;p&gt;My scanner is an &lt;strong&gt;Epson Perfection V550&lt;/strong&gt; which supports Digital ICE technology.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Digital ICE Technology is a hardware-based dust removal method that is more accurate than the Dust Removal feature. Digital ICE Technology can remove dust or scratch marks without affecting the image composition. However, it takes longer to scan using Digital ICE Technology and also uses more of your system resources.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;a href=&quot;https://files.support.epson.com/htmldocs/prv5ph/prv5phug/featr_3.htm&quot;&gt;Read more about Digital ICE&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;lets-see-the-results-now&quot;&gt;Lets see the results now:&lt;/h2&gt;
-
-&lt;h4 id=&quot;the-same-picture-scanned-with-three-different-ways-click-for-high-resolution&quot;&gt;The same picture scanned with three different ways. (Click for high-resolution)&lt;/h4&gt;
-
-&lt;p&gt;&lt;a href=&quot;/images/posts/digital_ice/all_no_tool.jpg&quot; target=&quot;_blank&quot; rel=&quot;no tool&quot;&gt;&lt;img src=&quot;/images/posts/digital_ice/all_no_tool.jpg&quot; alt=&quot;All enhancements disabled&quot; /&gt;&lt;/a&gt;
-&lt;span class=&quot;center_align&quot;&gt;
-  All enhancements disabled
-&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/images/posts/digital_ice/all_dust.jpg&quot; target=&quot;_blank&quot; rel=&quot;Dust removal (Medium) Enabled&quot;&gt;&lt;img src=&quot;/images/posts/digital_ice/all_dust.jpg&quot; alt=&quot;Dust removal (Medium) Enabled&quot; /&gt;&lt;/a&gt;
-&lt;span class=&quot;center_align&quot;&gt;
-  Dust removal (Medium) Enabled
-&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/images/posts/digital_ice/all_ice.jpg&quot; target=&quot;_blank&quot; rel=&quot;Digital ICE Enabled&quot;&gt;&lt;img src=&quot;/images/posts/digital_ice/all_ice.jpg&quot; alt=&quot;Digital ICE Enabled&quot; /&gt;&lt;/a&gt;
-&lt;span class=&quot;center_align&quot;&gt;
-  Digital ICE Enabled
-&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;It’s difficult to spot the differences, so lets do some cropping.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/images/posts/digital_ice/general_crop.png&quot; target=&quot;_blank&quot; rel=&quot;Dust removal (Medium) Enabled&quot;&gt;&lt;img src=&quot;/images/posts/digital_ice/general_crop.png&quot; alt=&quot;Details&quot; /&gt;&lt;/a&gt;
-&lt;span class=&quot;center_align&quot;&gt;
-  Click for high-resolution
-&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;Detail showing image degradation (GIF):
-&lt;img src=&quot;/images/posts/digital_ice/umbrella_full_crop.gif&quot; alt=&quot;Sign Crop - Digital ICE&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Detail showing image degradation and spot removals:
-&lt;img src=&quot;/images/posts/digital_ice/sign_crop.png&quot; alt=&quot;Sign Crop - Digital ICE&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;my-thoughts&quot;&gt;My thoughts&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Do not expect professional print quality scans with a $200 flatbed scanner!&lt;/strong&gt;
-It can of course, produce high quality results adequate for printing and excellent for digital use (website - social media).&lt;/p&gt;
-
-&lt;p&gt;With that in mind I choose to use &lt;strong&gt;Digital ICE&lt;/strong&gt; in my scans because it reduces the time I have to spend in post processing. 
-Yes there is some image degradation, but for me its not noticeable, especially in &lt;em&gt;jpeg&lt;/em&gt; images three times smaller than the original scans.&lt;/p&gt;
-
-&lt;p&gt;Now Dust Removal is the worst enhancement in my opinion. It does a good job removing dust, but oftentimes also removes other artifacts that may be of significance.
-The good thing is that it’s pretty fast compared to the Digital ICE technology.&lt;/p&gt;
-
-&lt;p&gt;Last but not least, not using any of the available enhancements is considered by many the best option to get the finest quality.
-Yes thats true! When you have a raw scan and then export it to Photoshop or Lightroom you can achieve the best quality.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;However, that requires a considerable amount of time which, in my opinion, the difference in quality does not justify.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;tldr&quot;&gt;&lt;strong&gt;TL;DR&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Digital Ice&lt;/strong&gt; Removes dust, scratches AND detail&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Dust Removal&lt;/strong&gt; Removes dust but not only that&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;No Enhancements used&lt;/strong&gt; Adds extra work to post processing&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Happy Scanning! :)&lt;/p&gt;
-</content>
-   </entry>
- 
-   <entry>
-     <title>What film camera to buy</title>
-     <link href="https://indicator0.github.io/posts/what_film_camera_to_buy"/>
-     <updated>2015-05-22T00:00:00+02:00</updated>
-     <id>https://indicator0.github.io/posts/what_film_camera_to_buy</id>
-     <content type="html">&lt;p&gt;There are hundreds of blog posts out there with extended reviews and detailed explanations on which film camera you should buy.&lt;/p&gt;
-
-&lt;p&gt;The &lt;strong&gt;only problem&lt;/strong&gt; with these blog posts / reviews is that they provide too much information, and analyze many cameras that cover &lt;strong&gt;different needs&lt;/strong&gt; and &lt;strong&gt;different budgets&lt;/strong&gt;. They tend to be more confusing than helpful.&lt;/p&gt;
-
-&lt;p&gt;In this post I will try to recommend some film cameras based on my experience. if you have free time and you are willing to learn some new things you should search for more detailed information for these cameras on the Internet.&lt;/p&gt;
-
-&lt;h3 id=&quot;why-trust-me&quot;&gt;Why trust me?&lt;/h3&gt;
-
-&lt;p&gt;Do not trust me! These are my personal choices after two years of involvement with analogue cameras and reading many many articles about them.&lt;/p&gt;
-
-&lt;h3 id=&quot;target-group&quot;&gt;Target group&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Everyone who just entered the world of film photography and do not want to waste money buying equipment that would sell or drop out after a while.&lt;/li&gt;
-  &lt;li&gt;The intermediate amateur photographer who is in search for a new film camera.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;There is only one important question:&lt;/p&gt;
-
-&lt;h3 id=&quot;what-you-are-going-to-shoot&quot;&gt;What you are going to shoot?&lt;/h3&gt;
-
-&lt;p&gt;&lt;em&gt;Street photography, Landscapes or Portraits ?&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;I am going to split this guide into &lt;strong&gt;3 main sections&lt;/strong&gt; based on answering the previous question.
-Each section will have &lt;strong&gt;two subsections&lt;/strong&gt; based on &lt;strong&gt;budget&lt;/strong&gt; with two options each, based on &lt;strong&gt;format&lt;/strong&gt; (35mm and Medium Format).&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Disclaimer:&lt;/em&gt; Having the right lens is as vital as having a good and reliable body. In my choices I don’t mention any lenses but they have been taken into account, so be sure that any of the below suggestions offers the proper lenses for each case.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;street-photography&quot;&gt;Street Photography&lt;/h2&gt;
-
-&lt;h5 id=&quot;high-budget&quot;&gt;High Budget:&lt;/h5&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Leica M3/M4/M6&lt;/strong&gt; or &lt;strong&gt;Contax G2&lt;/strong&gt; or &lt;strong&gt;Konica Hexar AF&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Mamiya 7 II&lt;/strong&gt; or &lt;strong&gt;Plaubel Makina 67&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/posts/what_to_buy/henri_cartier_bresson_children.jpg&quot; alt=&quot;Henri Cartier-Bresson with a Leica&quot; /&gt;
-&lt;span class=&quot;center_align&quot;&gt;
-  Henri Cartier-Bresson with a Leica
-&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/posts/what_to_buy/martin_parr_plaubel_makina.jpg&quot; alt=&quot;Martin Parr with a Plaubel Makina&quot; /&gt;
-&lt;span class=&quot;center_align&quot;&gt;
-  Martin Parr with a Plaubel Makina 67
-&lt;/span&gt;&lt;/p&gt;
-
-&lt;h5 id=&quot;normal-budget&quot;&gt;Normal Budget&lt;/h5&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Contax G1&lt;/strong&gt; or &lt;strong&gt;Ricoh GR1&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Forget the medium format :)&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/posts/what_to_buy/moriyama_ricoh_gr1.jpg&quot; alt=&quot;Moriyama with Ricoh GR1&quot; /&gt;
-&lt;span class=&quot;center_align&quot;&gt;
-  Moriyama with a Ricoh GR1
-&lt;/span&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;landscape-photography-contemporary---still-life&quot;&gt;Landscape Photography (Contemporary) - Still Life&lt;/h2&gt;
-
-&lt;h5 id=&quot;high-budget-1&quot;&gt;High Budget:&lt;/h5&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Leica M3/M4/M6&lt;/strong&gt; or &lt;strong&gt;Contax G2&lt;/strong&gt; or &lt;strong&gt;Nikon F6&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Mamiya 7 II&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/posts/what_to_buy/harry_gruyaert_leica_m6.jpg&quot; alt=&quot;Harry Gruyaert with a Leica M6&quot; /&gt;
-&lt;span class=&quot;center_align&quot;&gt;
-  Harry Gruyaert with a Leica M6
-&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/posts/what_to_buy/alex_kompotis_mamiya7ii.jpg&quot; alt=&quot;Alex Kompotis with a Mamiya 7 II&quot; /&gt;
-&lt;span class=&quot;center_align&quot;&gt;
-  Alex Kompotis with a Mamiya 7 II
-&lt;/span&gt;&lt;/p&gt;
-
-&lt;h5 id=&quot;normal-budget-1&quot;&gt;Normal Budget&lt;/h5&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Contax G1&lt;/strong&gt; or &lt;strong&gt;Olympus OM2/OM2n&lt;/strong&gt; or &lt;strong&gt;Minolta XD7&lt;/strong&gt; or &lt;strong&gt;Nikon FE/FM2&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Bronica GS-1&lt;/strong&gt; or &lt;strong&gt;Pentax 67&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/posts/what_to_buy/liu_xd7.jpg&quot; alt=&quot;Marco Liu with a XD-7&quot; /&gt;
-&lt;span class=&quot;center_align&quot;&gt;
-  Marco Liu with a XD-7
-&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://c1.staticflickr.com/9/8583/15429222394_6705994903_c.jpg&quot; alt=&quot;Me with Bronica GS-1&quot; /&gt;
-&lt;span class=&quot;center_align&quot;&gt;
-  Me with a Bronica GS-1
-&lt;/span&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;portrait-photography&quot;&gt;Portrait Photography&lt;/h2&gt;
-
-&lt;h5 id=&quot;high-budget-2&quot;&gt;High Budget:&lt;/h5&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Nikon F6&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Pentax 67 II&lt;/strong&gt; or &lt;strong&gt;Hasselblad 500C/M&lt;/strong&gt; or &lt;strong&gt;Rolleiflex 2.8&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/posts/what_to_buy/mccurry_nikon_f6.jpg&quot; alt=&quot;Steve McCurry Nikon F6 Afghan girl&quot; /&gt;
-&lt;span class=&quot;center_align&quot;&gt;
-  Steve McCurry with a Nikon FM2
-&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/posts/what_to_buy/todd_hido_pentax67.jpg&quot; alt=&quot;Todd Hido with a Pentax67&quot; /&gt;
-&lt;span class=&quot;center_align&quot;&gt;
-  Todd Hido with a Pentax67
-&lt;/span&gt;&lt;/p&gt;
-
-&lt;h5 id=&quot;normal-budget-2&quot;&gt;Normal budget&lt;/h5&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Nikon FM2&lt;/strong&gt; or &lt;strong&gt;Canon EOS 3&lt;/strong&gt; or &lt;strong&gt;Minolta XD7&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Mamiya RB67&lt;/strong&gt; or &lt;strong&gt;Pentax 645N&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/posts/what_to_buy/nikon_fm2_portrait.jpg&quot; alt=&quot;Nikon FM2 portrait&quot; /&gt;
-&lt;span class=&quot;center_align&quot;&gt;
-  Erik Gross with a Nikon FM2
-&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/posts/what_to_buy/markou_pentax_645.jpg&quot; alt=&quot;Thodoris Markou with a Pentax645N&quot; /&gt;
-&lt;span class=&quot;center_align&quot;&gt;
-  Thodoris Markou with a Pentax645N
-&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;Happy shopping!&lt;/p&gt;
-</content>
-   </entry>
- 
-   <entry>
-     <title>My photography gear</title>
-     <link href="https://indicator0.github.io/posts/my_gear"/>
-     <updated>2015-04-16T00:00:00+02:00</updated>
-     <id>https://indicator0.github.io/posts/my_gear</id>
-     <content type="html">&lt;p&gt;The second most popular question following the &lt;a href=&quot;https://rpk.io/posts/why-I-shoot-film&quot;&gt;“Why you shoot film?”&lt;/a&gt; is &lt;strong&gt;“What gear you own and use?”&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;So this is the list of all the gear I own and use!&lt;/p&gt;
-
-&lt;h2 id=&quot;bronica-gs-1&quot;&gt;&lt;strong&gt;Bronica GS-1&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;with &lt;strong&gt;Zenzanon PG 100mm f/3.5&lt;/strong&gt; and &lt;strong&gt;Zenzanon PG 65mm f/4&lt;/strong&gt;&lt;br /&gt;
-&lt;img src=&quot;https://raw.githubusercontent.com/rpk0/rpk_site/gh-pages/images/posts/my_gear/Bronica%20GS-1%20-%20Zenzanon%20PG%20100mm%20f:3.5%20and%20Zenzanon%20PG%2065mm%20f:4.jpg&quot; alt=&quot;Bronica GS-1 - Zenzanon PG 100mm f:3.5 and Zenzanon PG 65mm f:4&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;this is my main camera, the one that I carry with me when I go out to photograph, from landscapes to portraits.&lt;/p&gt;
-
-&lt;p&gt;I am very happy with the camera as it produces very good results,
-it has good metering with the AE prism and sharp lenses.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Tip:&lt;/strong&gt;
-&lt;em&gt;Focusing improved dramatically when I changed the regular focusing screen with a split-screen. I recommend this upgrade to anyone with a GS-1.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;The built quality is also very good, solid with good ergonomics which makes the use of the camera pretty easy.&lt;/p&gt;
-
-&lt;p&gt;The &lt;strong&gt;Zenzanon PG&lt;/strong&gt; series of lenses are excellent, sharp across the field even when wide open and can be found in very reasonable prices.&lt;/p&gt;
-
-&lt;p&gt;Due to my work style (&lt;a href=&quot;https://rpk.io/photo_essays/on_the_road/&quot;&gt;urban landscapes&lt;/a&gt;) I mostly use the &lt;em&gt;PG 65mm&lt;/em&gt; and whenever I shoot portraits I use the &lt;em&gt;100mm&lt;/em&gt; one.&lt;/p&gt;
-
-&lt;p&gt;The only weakness of the lenses is that they are a bit slow (3.5) and they don’t have “character” in their bokeh.&lt;/p&gt;
-
-&lt;p&gt;Many people say that the GS1 is light and compact for a 6x7 SLR but I can’t even imagine how other 6x7 SLRs are, because for me this one feels &lt;strong&gt;monstrous&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;I use mine with AE prism and the speedgrip which clearly adds extra weight and size but improves dramatically the handling and use of the camera.&lt;/p&gt;
-
-&lt;p&gt;Conclusion: 
-Bronica GS-1 is &lt;strong&gt;the best 6x7 SLR&lt;/strong&gt; you can get in this price range (600$ with 2 lenses in 2015)
-You get &lt;strong&gt;amazing results&lt;/strong&gt; if you know how to use it, &lt;strong&gt;large negatives&lt;/strong&gt;, &lt;strong&gt;awesome lenses&lt;/strong&gt;, &lt;strong&gt;many accessories&lt;/strong&gt; and the ability to select between &lt;strong&gt;different formats (6X6, 645)&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;contax-g1&quot;&gt;&lt;strong&gt;Contax G1&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;with &lt;strong&gt;Contax G Zeiss 28mm f/2.8 Biogon&lt;/strong&gt;
-&lt;img src=&quot;https://raw.githubusercontent.com/rpk0/rpk_site/gh-pages/images/posts/my_gear/Contax%20G1%20-%20Contax%20G%20Zeiss%2028mm%20f:2.8%20Biogon.jpg&quot; alt=&quot;Contax G1 - Contax G Zeiss 28mm f:2.8 Biogon&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;This is a new arrival to fill the gap of a small, quality 35mm camera that I will carry with me as a backup to the medium format.&lt;/p&gt;
-
-&lt;p&gt;I used to have an Olumpus XA2 for this job but its constraints led me to search for a better one.&lt;/p&gt;
-
-&lt;p&gt;I found the Contax G1 in a bargain and bought it, I don’t need to say much about the Contax G system, it is &lt;strong&gt;one of the best 35mm systems&lt;/strong&gt; you can find out there. &lt;a href=&quot;http://www.kenrockwell.com/contax/g-system.htm&quot;&gt;Ken Rockwell Review&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;The only “problem” is that eventually it is not going to be a replacement of the Olympus XA2. Its bigger, heavier and feels more fragile. I carry the XA2 everywhere inside my everyday backpack, something you can’t do with the precious Contax.&lt;/p&gt;
-
-&lt;p&gt;Where I use the Contax:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Backup to the Bronica GS-1 in my photography roadtrips&lt;/li&gt;
-  &lt;li&gt;Main camera in my urban wanderings&lt;/li&gt;
-  &lt;li&gt;Loaded with black and white film for my &lt;a href=&quot;https://rpk.io/photo_essays/roadtrip_snapshots/&quot;&gt;black and white projects&lt;/a&gt; :)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;olympus-om2n&quot;&gt;&lt;strong&gt;Olympus OM2n&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;with &lt;strong&gt;Zuiko Auto-W 28mm f/3.5&lt;/strong&gt;
-&lt;img src=&quot;https://raw.githubusercontent.com/rpk0/rpk_site/gh-pages/images/posts/my_gear/Olympus%20OM2n%20-%20Zuiko%20Auto-W%2028mm%20f:3.5.jpg&quot; alt=&quot;Olympus OM2n - Zuiko Auto-W 28mm f:3.5&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;This is a very good camera but I have never used it. Bought it around the same time I bought the Olympus XA2 and maybe thats a good excuse for not using it.&lt;/p&gt;
-
-&lt;p&gt;The camera is &lt;strong&gt;very small&lt;/strong&gt;, has a &lt;strong&gt;solid build&lt;/strong&gt; and a &lt;strong&gt;fantastic viewfinder&lt;/strong&gt;. I can not say much about it because I have shot only 3 or 4 films with this one.&lt;/p&gt;
-
-&lt;p&gt;Someone could say that with the entry of the Contax G1 this camera became obsolete, but I don’t think so, the Contax is an AF rangefinder with expensive lenses and accessories when the &lt;strong&gt;OM2n&lt;/strong&gt; is a classic manual focus SLR with a &lt;strong&gt;huge selection of good and affordable lenses&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;I don’t know if I will ever shoot actively with it but I will not sell it for the following 3 reasons:&lt;/p&gt;
+&lt;p&gt;Hence we have to automate these two things:&lt;/p&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;It is my only 35mm SLR camera&lt;/li&gt;
-  &lt;li&gt;It is not worth a lot of money&lt;/li&gt;
-  &lt;li&gt;It is one of the best looking SLRs&lt;/li&gt;
+  &lt;li&gt;the creation of the file with the correct name&lt;/li&gt;
+  &lt;li&gt;the &lt;em&gt;YAML front matter block&lt;/em&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h2 id=&quot;olympus-xa2&quot;&gt;&lt;strong&gt;Olympus XA2&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/rpk0/rpk_site/gh-pages/images/posts/my_gear/Olympus%20XA2.jpg&quot; alt=&quot;Olympus XA2&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The solution&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;This is one of my favorites cameras. Why? Because I have it with me all the time!&lt;/p&gt;
+&lt;p&gt;I chose &lt;a href=&quot;https://github.com/erikhuda/thor&quot;&gt;Thor&lt;/a&gt; for this job as it is a very simple but powerful tool.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;XA2&lt;/strong&gt; comes in a tiny clamshell body with an awesome, sharp, contrasty little Zuiko 35mm 1:3.5 4-element lens.&lt;/p&gt;
-
-&lt;p&gt;It offers &lt;strong&gt;automatic exposure&lt;/strong&gt; and &lt;strong&gt;zone focusing&lt;/strong&gt;. This means that the only thing you can control is the focus zones which are splited in three groups: close (1.2m-1.8m), near (1.2-6.3m) and far (6.3m-infinity).&lt;/p&gt;
-
-&lt;p&gt;This focusing system is one of the biggest disadvantages in my opinion, I have many out of focus images and with their mediocre quality these images are unusable.&lt;/p&gt;
-
-&lt;p&gt;Overall this is my favorite take-everywhere film camera and responsible for this great set: &lt;a href=&quot;https://rpk.io/photo_essays/roadtrip_snapshots/&quot;&gt;Roadtrip Snapshots&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;olympus-omd-em-5&quot;&gt;&lt;strong&gt;Olympus OMD EM-5&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;with &lt;strong&gt;M.Zuiko 12-50mm f/3.5-6.3 ED&lt;/strong&gt; and &lt;strong&gt;Panasonic LUMIX G 20mm f/1.7&lt;/strong&gt;
-&lt;img src=&quot;https://raw.githubusercontent.com/rpk0/rpk_site/gh-pages/images/posts/my_gear/Olympus%20OMD%20EM-5%20-%20LUMIX%20G%2020mm%20f:1.7%20and%20M.Zuiko%2012-50mm.jpg&quot; alt=&quot;Olympus OMD EM-5 - LUMIX G 20mm f:1.7 and M.Zuiko 12-50mm&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;It’s 2015, you can’t live in this year and not have a good digital camera. There are moments where the advantages of a digital camera make it indispensable.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;The right tool for the right job.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Trips with friends, events and concerts are some occasions where I bring the &lt;strong&gt;OMD&lt;/strong&gt; with me.
-This &lt;strong&gt;amazingly build little camera&lt;/strong&gt; produces very good images and has these 4 fantastic features that I love:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Small size (with the 20mm Panasonic fits in your jacket pocket)&lt;/li&gt;
-  &lt;li&gt;Weather sealing (many new opportunities emerge)&lt;/li&gt;
-  &lt;li&gt;5-axis image stabilization
-    &lt;ul&gt;
-      &lt;li&gt;Helps shoot in low light (1/4 sec its an easy shoot)&lt;/li&gt;
-      &lt;li&gt;You can easily mount and play with older lenses&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Fast autofocus with most Micro Four Thirds lenses&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Bonus point: &lt;strong&gt;It’s beautiful!&lt;/strong&gt; :)&lt;/p&gt;
-
-&lt;p&gt;I will upgrade this camera when I found the same package with better ISO performance and maybe a full frame sensor.&lt;/p&gt;
-
-&lt;h2 id=&quot;holga-120cfn-6x6-smena-symbol-35mm&quot;&gt;&lt;strong&gt;Holga 120CFN (6x6), Smena Symbol 35mm&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/rpk0/rpk_site/gh-pages/images/posts/my_gear/Holga%20120CFN,%20Smena%20Symbol%2035mm.jpg&quot; alt=&quot;Holga 120CFN (6x6), Smena Symbol 35mm&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Double exposures, light leaks and unexpected results. It is so much fun to use these two plastic cameras!&lt;/p&gt;
-
-&lt;h2 id=&quot;workstation&quot;&gt;&lt;strong&gt;Workstation&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/rpk0/rpk_site/gh-pages/images/posts/my_gear/Film%20workstation.jpg&quot; alt=&quot;Film workstation&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Laptop:&lt;/strong&gt;
-MacBook Pro 13-inch with Retina display&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Monitor:&lt;/strong&gt;
-Dell U2311H: E-IPS 23-inch&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Backup:&lt;/strong&gt;
-2TB Seagate Backup Plus Slim&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Scaner:&lt;/strong&gt;
-Epson Perfection V550 Photo&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Other:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;In my research I have rejected two other solutions&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Hand made working table&lt;/li&gt;
-  &lt;li&gt;Hand made lightbox negative viewer&lt;/li&gt;
+  &lt;li&gt;a simple Rake task&lt;/li&gt;
+  &lt;li&gt;a simple &lt;a href=&quot;https://gist.github.com/rpk0/7ef3ba85bff2fbbba342&quot;&gt;ruby script&lt;/a&gt; with &lt;a href=&quot;https://github.com/leejarvis/slop&quot;&gt;Slop Gem&lt;/a&gt; (lightweight option parsing)&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/rpk0/rpk_site/gh-pages/images/posts/my_gear/Lightbox%20negative%20viewer.jpg&quot; alt=&quot;Hand made lightbox negative viewer&quot; /&gt;
-&lt;img src=&quot;https://raw.githubusercontent.com/rpk0/rpk_site/gh-pages/images/posts/my_gear/Lightbox%20negative%20viewer%202.jpg&quot; alt=&quot;Hand made lightbox negative viewer&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;if you have a Gemfile add the following gems&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Thats all folks!&lt;/strong&gt;&lt;/p&gt;
-</content>
-   </entry>
- 
-   <entry>
-     <title>Why I shoot Film</title>
-     <link href="https://indicator0.github.io/posts/why-I-shoot-film"/>
-     <updated>2015-03-24T00:00:00+01:00</updated>
-     <id>https://indicator0.github.io/posts/why-I-shoot-film</id>
-     <content type="html">&lt;h2 id=&quot;slow-life---the-wait&quot;&gt;&lt;strong&gt;Slow Life - The wait&lt;/strong&gt;&lt;/h2&gt;
-
-&lt;p&gt;When you have &lt;strong&gt;36&lt;/strong&gt; or &lt;strong&gt;10&lt;/strong&gt; (for my medium format 6x7) frames available you take your time before you decide to shoot.&lt;/p&gt;
-
-&lt;p&gt;The procedure when shooting film is something like this:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Find elements you find visually captivating&lt;/li&gt;
-  &lt;li&gt;Think every element of the photo. (light, pose, environment)&lt;/li&gt;
-  &lt;li&gt;Plan (from tones to contrast and from saturation to composition)&lt;/li&gt;
-  &lt;li&gt;Set carefully every camera parameter&lt;/li&gt;
-  &lt;li&gt;Be patient and concentrate&lt;/li&gt;
-  &lt;li&gt;Shoot&lt;/li&gt;
-  &lt;li&gt;Enjoy the moment&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;These constraints &lt;strong&gt;foster creativity&lt;/strong&gt;, &lt;strong&gt;slow you down&lt;/strong&gt; and help to empty your mind of any other thoughts.&lt;/p&gt;
-
-&lt;p&gt;&lt;sup&gt;&lt;strong&gt;Digital photography rewards trial and error whereas film rewards learning and understanding.&lt;/strong&gt;&lt;/sup&gt;&lt;/p&gt;
-
-&lt;p&gt;After the click you have to wait again to finish the roll and to develop the negatives, all that waiting makes you look at your work with more &lt;strong&gt;detachment&lt;/strong&gt; and &lt;strong&gt;cognition&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;Technology is wonderful, but using film cameras allows me to forget about chasing the latest and greatest equipment and focus on what really matters in making photographs: &lt;strong&gt;composition&lt;/strong&gt;, &lt;strong&gt;atmosphere&lt;/strong&gt;, and &lt;strong&gt;emotion&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;surprise---curiosity&quot;&gt;&lt;strong&gt;Surprise - Curiosity&lt;/strong&gt;&lt;/h2&gt;
-
-&lt;p&gt;Yes, thats the second most important reason for me shooting film. I can not describe the feeling…&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;…when I open the tank and see the developed negative.&lt;/li&gt;
-  &lt;li&gt;…when I develop a film that I have no idea what is on it and I finally see the forgotten pictures.&lt;/li&gt;
-  &lt;li&gt;…when I go to the photo lab to pick up the development of the film. It’s like a Birthday present, always!&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/rpk0/rpk_site/gh-pages/images/posts/why_i_shoot_film/developing_film.jpg&quot; alt=&quot;opening the film tank&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;history&quot;&gt;&lt;strong&gt;History&lt;/strong&gt;&lt;/h2&gt;
-
-&lt;p&gt;All of my favorite great works by photography masters were taken on film
-and when shooting film  I feel like I am experiencing photography the way it is supposed to be.&lt;/p&gt;
-
-&lt;h2 id=&quot;experimentation&quot;&gt;&lt;strong&gt;Experimentation&lt;/strong&gt;&lt;/h2&gt;
-
-&lt;p&gt;Multiple exposures, expired films, grain, dust, blur, vintage filters, light leaks, and other imperfections make the result unique and unpredictable.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;…Endless possibilities!&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/rpk0/rpk_site/gh-pages/images/posts/why_i_shoot_film/double_exp.jpg&quot; alt=&quot;double exposure&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;the-analogue-cameras&quot;&gt;&lt;strong&gt;The analogue cameras&lt;/strong&gt;&lt;/h2&gt;
-
-&lt;p&gt;Each camera is different.&lt;/p&gt;
-
-&lt;p&gt;I have 6 cameras, all of different ages, styles, and formats. Each one, is different and unique. Each kind of film is also different. You have a world of choices. So analogue photography is never boring!&lt;/p&gt;
-
-&lt;p&gt;I Also like film cameras because:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;They look industrial in their construction&lt;/li&gt;
-  &lt;li&gt;They feel solid and real in your hand&lt;/li&gt;
-  &lt;li&gt;The don’t need charging&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;In my opinion you have to love the camera you’re using (for personal work) or there is really no enjoyment in the process of taking photos.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;The medium and large format cameras
-    &lt;ul&gt;
-      &lt;li&gt;shooting with 6x6, 6x7 or larger film makes you happy because you can see all these little details that take you beyond the real world.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;The very simple film cameras (just 1 button)
-    &lt;ul&gt;
-      &lt;li&gt;it is easy to carry with, and there is no complex settings, just focus on the main subject.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Lastly, I do not want to invest a lot of money in equipment that will be obsolete in a very short time. &lt;strong&gt;Film cameras last for decades!&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/rpk0/rpk_site/gh-pages/images/posts/why_i_shoot_film/film_cameras.jpg&quot; alt=&quot;film cameras&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;quality&quot;&gt;&lt;strong&gt;Quality&lt;/strong&gt;&lt;/h2&gt;
-
-&lt;p&gt;Quality of negative/slide. Yes it is neither cheap nor easy procedure until you get a good result but sometimes its better than digital.&lt;/p&gt;
-
-&lt;p&gt;With a good medium format camera (600$) and a professional film you can achieve results way better.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Fantastic bokeh (DOF) and amazing feeling of the representation/rendering of the 3rd dimension (depth)&lt;/li&gt;
-  &lt;li&gt;Huge raw files when scanned in a good scanner&lt;/li&gt;
-  &lt;li&gt;Amazing results on print.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;I Also love:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;The thickness and density of shades and shadows&lt;/li&gt;
-  &lt;li&gt;The dynamic range
-    &lt;ul&gt;
-      &lt;li&gt;Film allows me to retain highlight detail (especially when hand printed in a darkroom) even when I deliberately over expose my images for a pre-visualized picture.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;The deep contrast of film&lt;/li&gt;
-  &lt;li&gt;The smoothness of the grain and the feeling of continuity from the foreground to the background. It has a very organic look and I think nothing can replicate it&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/rpk0/rpk_site/gh-pages/images/posts/why_i_shoot_film/filmvsdigital.jpg&quot; alt=&quot;filmvsdigital&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;diy&quot;&gt;&lt;strong&gt;DIY&lt;/strong&gt;&lt;/h2&gt;
-
-&lt;p&gt;I like the “do it yourself” approach. 
-Loading the camera, pushing the film, developing and printing the rolls with my hands.&lt;/p&gt;
-
-&lt;p&gt;I love how I don’t have to sit in front of the computer for hours editing an image. It looks great right out of the camera.&lt;/p&gt;
-
-&lt;h2 id=&quot;the-end&quot;&gt;&lt;strong&gt;The end&lt;/strong&gt;&lt;/h2&gt;
-
-&lt;p&gt;Film photography is &lt;strong&gt;pure&lt;/strong&gt; and &lt;strong&gt;real&lt;/strong&gt;, it requires  &lt;strong&gt;patience&lt;/strong&gt;, &lt;strong&gt;concentration&lt;/strong&gt; and &lt;strong&gt;dedication&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;And thats why it is the best way to train the eye and refine your technique.&lt;/p&gt;
-
-&lt;p&gt;With film photography there’s a fulfillment in me and a feeling like I’m &lt;strong&gt;doing&lt;/strong&gt; something, &lt;strong&gt;creating&lt;/strong&gt; something. I am a software engineer and I love my job for the same reason. I create things and I &lt;strong&gt;understand&lt;/strong&gt; how things work.&lt;/p&gt;
-
-&lt;h3 id=&quot;alternative-titles-for-this-post&quot;&gt;Alternative titles for this post:&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;“8 things I love about Film”&lt;/strong&gt; | &lt;strong&gt;“Why you should try shoot film”&lt;/strong&gt;&lt;/p&gt;
-</content>
-   </entry>
- 
-   <entry>
-     <title>Automatically create HTML posts in Jekyll with Thor</title>
-     <link href="https://indicator0.github.io/posts/automatically-create-html-posts-in-jekyll-with-thor"/>
-     <updated>2014-11-27T00:00:00+01:00</updated>
-     <id>https://indicator0.github.io/posts/automatically-create-html-posts-in-jekyll-with-thor</id>
-     <content type="html">&lt;h2 id=&quot;the-problem&quot;&gt;The Problem&lt;/h2&gt;
-
-&lt;p&gt;&lt;sup&gt;This article is the sequel to the &lt;a href=&quot;https://rpk.io/posts/automatically-create-jekyll-posts-with-thor&quot;&gt;the previous Thor automation tutorial&lt;/a&gt; posted some months ago.&lt;sup&gt;&lt;/sup&gt;&lt;/sup&gt;&lt;/p&gt;
-
-&lt;p&gt;In the photography section of this blog I post photo essays, a photo-essay (or photographic essay) is a set or series of photographs that are intended to tell a story or evoke a series of emotions in the viewer.&lt;/p&gt;
-
-&lt;p&gt;So it is very important to display the images in the best possible way.
-Doing this is very difficult as the style varies from essay to essay 
-and from device to device. 
-Posts written in Markdown made it too difficult to customize the presentation so I decided to create manually the HTML files for each post.&lt;/p&gt;
-
-&lt;p&gt;This is &lt;strong&gt;time consuming&lt;/strong&gt; and &lt;strong&gt;repeatable&lt;/strong&gt; process so why not automate it too as we do with the blog posts?&lt;/p&gt;
-
-&lt;p&gt;For this task we have to work on three things&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Dynamically generate the photo list with &lt;em&gt;Liquid templating language&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;Choose where to upload the images&lt;/li&gt;
-  &lt;li&gt;Write a Thor script to generate the HTML file&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;the-solution&quot;&gt;The Solution&lt;/h2&gt;
-
-&lt;h3 id=&quot;1-we-have-to-minimize-and-optimize-the-default-html-file-of-each-photo-essay&quot;&gt;1. We have to minimize and optimize the default HTML file of each photo essay&lt;/h3&gt;
-
-&lt;p&gt;Each photo set is a list of, normally, more than 5 images, using liquid we can generate the huge HTML list with just a few lines of code.&lt;/p&gt;
-
-&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;ul&amp;gt;&lt;/span&gt;
-  { % for img in page.images % }
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/uploads/--folder_name--/&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;data-lightbox=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;image-1&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/uploads/--folder_name--/&quot;&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;alt=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
-  { % endfor % }
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/ul&amp;gt;&lt;/span&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gem &apos;thor&apos;
+gem &apos;stringex&apos;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;The rest of the file consists of three elements one section with the icons and general info, one blockquote for the intro essay and last a div with the next project links.&lt;/p&gt;
+&lt;p&gt;and run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bundle isntall&lt;/code&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;2-the-images-will-be-uploaded-to-github&quot;&gt;2. The images will be uploaded to GitHub&lt;/h3&gt;
+&lt;p&gt;if you do not have a gemfile just (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sudo if required&lt;/code&gt;) install the two gems&lt;/p&gt;
 
-&lt;p&gt;This site is hosted in &lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt; so it is very convenient to upload the images there. I use a separate folder for each photo essay with the title of the post.&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gem install thor
+gem install stringex
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;h3 id=&quot;3-the-script&quot;&gt;3. The script&lt;/h3&gt;
+&lt;p&gt;Now create a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;post.thor&lt;/code&gt; file in the root directory of the your Jekyll project with the following contents:&lt;/p&gt;
 
-&lt;p&gt;The Thor script has 2 major changes compared to the one used for the &lt;a href=&quot;https://rpk.io/posts/automatically-create-jekyll-posts-with-thor&quot;&gt;blog post&lt;/a&gt; generation.&lt;/p&gt;
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;stringex&quot;&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;thor&quot;&lt;/span&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;The attributes passed via a interactive prompt after running the script.&lt;/li&gt;
-  &lt;li&gt;The file’s content it is not generated inside the script but it copies a sample post and replaces the keywords in it based on the input.&lt;/li&gt;
-&lt;/ul&gt;
+&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Post&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Thor&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;desc&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;new TITLE&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Create a new post&quot;&lt;/span&gt;
 
-&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  &lt;span class=&quot;c1&quot;&gt;#!/usr/bin/env ruby&lt;/span&gt;
-  &lt;span class=&quot;c1&quot;&gt;#!/usr/bin/env ruby&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;fileutils&apos;&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;thor&apos;&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;method_option&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;aliases: &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;-d&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+                       &lt;span class=&quot;ss&quot;&gt;default: &lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Time&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;now&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;strftime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;%Y-%m-%d&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+                       &lt;span class=&quot;ss&quot;&gt;desc: &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Change the current time to the value provided&quot;&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;method_option&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:category&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;aliases: &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;-c&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+                           &lt;span class=&quot;ss&quot;&gt;default: &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;General&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+                           &lt;span class=&quot;ss&quot;&gt;type: :string&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+                           &lt;span class=&quot;ss&quot;&gt;desc: &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Add the post&apos;s category, default &apos;General&apos;&quot;&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;method_option&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:tags&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;aliases: &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;-t&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+                       &lt;span class=&quot;ss&quot;&gt;type: :string&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+                       &lt;span class=&quot;ss&quot;&gt;desc: &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Add post tags, comma-separated string&quot;&lt;/span&gt;
 
-  &lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;PhotoPost&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Thor&lt;/span&gt;
-    &lt;span class=&quot;kp&quot;&gt;include&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Thor&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Actions&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;new&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;title&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;join&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot; &quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;category&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;options&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:category&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;# fomat tags in the way you want them to be displayed&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;tags&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;options&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:tags&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;gsub&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/\W+/&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot; - &quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;options&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:tags&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;filename&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;_posts/&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;category&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;downcase&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;options&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;to_url&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;.md&quot;&lt;/span&gt;
 
-    &lt;span class=&quot;n&quot;&gt;no_commands&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt;
-      &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;directories_exists?&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dir1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dir2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-        &lt;span class=&quot;no&quot;&gt;File&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;directory?&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dir1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;File&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;directory?&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dir2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-      &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;File&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;exist?&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;filename&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;nb&quot;&gt;abort&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;filename&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt; already exists!&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
     &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
 
-    &lt;span class=&quot;n&quot;&gt;desc&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;create&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Use the interactive prompt to create a new photo essay&quot;&lt;/span&gt;
-
-    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;create&lt;/span&gt;
-      &lt;span class=&quot;n&quot;&gt;say&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;New photo essay&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Thor&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Shell&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;YELLOW&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-
-      &lt;span class=&quot;n&quot;&gt;photos_count&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ask&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Number of photos:&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-      &lt;span class=&quot;n&quot;&gt;title&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ask&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Title:&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-      &lt;span class=&quot;n&quot;&gt;path&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ask&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Folder name:&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-      &lt;span class=&quot;n&quot;&gt;date&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ask&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Date (Nov 2014):&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-      &lt;span class=&quot;n&quot;&gt;place&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ask&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Place:&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-      &lt;span class=&quot;n&quot;&gt;camera&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ask&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Camera:&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-      &lt;span class=&quot;n&quot;&gt;film&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ask&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Film:&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-      &lt;span class=&quot;n&quot;&gt;next_project_title&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ask&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Next Project Title:&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-      &lt;span class=&quot;n&quot;&gt;next_project_path&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ask&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Next Project Path:&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-      &lt;span class=&quot;n&quot;&gt;description&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ask&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Description:&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-
-      &lt;span class=&quot;n&quot;&gt;number_of_photos&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&quot;&lt;/span&gt;
-      &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;photos_count&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;to_i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;each&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;l&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;number_of_photos&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;  - &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;l&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;.jpg&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-      &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-
-      &lt;span class=&quot;n&quot;&gt;dirname&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;File&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;dirname&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;../photos/&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;path&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;/index.html&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-      &lt;span class=&quot;n&quot;&gt;uploads_dirname&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;File&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;dirname&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;../uploads/&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;path&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;/image.jpg&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-
-      &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;directories_exists?&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dirname&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;uploads_dirname&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-        &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Photo essay with the same name already exists!&quot;&lt;/span&gt;
-      &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;
-        &lt;span class=&quot;no&quot;&gt;FileUtils&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;mkdir_p&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dirname&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-        &lt;span class=&quot;no&quot;&gt;FileUtils&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;mkdir_p&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;uploads_dirname&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;temp&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;File&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;read&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;sample_post&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;
-          &lt;span class=&quot;nf&quot;&gt;gsub&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/--number_of_photos--/&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;number_of_photos&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;
-          &lt;span class=&quot;nf&quot;&gt;gsub&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/--title--/&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;
-          &lt;span class=&quot;nf&quot;&gt;gsub&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/--folder_name--/&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;
-          &lt;span class=&quot;nf&quot;&gt;gsub&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/--date--/&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;
-          &lt;span class=&quot;nf&quot;&gt;gsub&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/--place--/&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;place&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;
-          &lt;span class=&quot;nf&quot;&gt;gsub&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/--camera--/&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;camera&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;
-          &lt;span class=&quot;nf&quot;&gt;gsub&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/--film--/&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;film&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;
-          &lt;span class=&quot;nf&quot;&gt;gsub&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/--next_project_title--/&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;next_project_title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;
-          &lt;span class=&quot;nf&quot;&gt;gsub&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/--next_project_path--/&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;next_project_path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;
-          &lt;span class=&quot;nf&quot;&gt;gsub&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/--description--/&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;description&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-        &lt;span class=&quot;no&quot;&gt;File&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;open&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dirname&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;/index.html&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;w+&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;out&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;
-          &lt;span class=&quot;n&quot;&gt;out&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;temp&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-
-        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;directories_exists?&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dirname&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;uploads_dirname&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-          &lt;span class=&quot;n&quot;&gt;say&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Created &amp;gt;&amp;gt; &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dirname&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;/index.html&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Thor&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Shell&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;GREEN&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-          &lt;span class=&quot;n&quot;&gt;say&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Created &amp;gt;&amp;gt; &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;uploads_dirname&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Thor&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Shell&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;GREEN&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-          &lt;span class=&quot;n&quot;&gt;say&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Reminder: Add the photos to the uploads folder&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Thor&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Shell&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;RED&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-      &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+    &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Creating new post: &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;filename&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+    &lt;span class=&quot;nb&quot;&gt;open&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;filename&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;w&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;post&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;post&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;---&quot;&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;post&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;layout: post_layout&quot;&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;post&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;title: &lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\&quot;&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;gsub&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/&amp;amp;/&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;&amp;amp;amp;&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;post&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;avatar:&quot;&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;post&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;category: &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;category&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;post&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;tags: &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tags&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;post&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;path: posts&quot;&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;post&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;---&quot;&lt;/span&gt;
     &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+
+    &lt;span class=&quot;c1&quot;&gt;# opens the md file in your default editor&lt;/span&gt;
+    &lt;span class=&quot;nb&quot;&gt;system&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;ENV&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;EDITOR&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt; &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;filename&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+    &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;New post created: &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;filename&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
   &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;Running the script:&lt;/p&gt;
+&lt;p&gt;Once you have this created, you can run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;thor list&lt;/code&gt; from the command line and you should see the following output:&lt;/p&gt;
 
-&lt;script type=&quot;text/javascript&quot; src=&quot;https://asciinema.org/a/14312.js&quot; id=&quot;asciicast-14312&quot; data-theme=&quot;solarized-dark&quot; async=&quot;&quot;&gt;&lt;/script&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;post
+----
+thor post:new TITLE  # Create a new post
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
+&lt;p&gt;In this example, the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;method_options&lt;/code&gt; have been supplied with several parameters.&lt;br /&gt;
+The first parameter is the full name of the option, this is translated into a – option on the command line.&lt;br /&gt;
+The second is the alias option to provide a short version of this option.&lt;br /&gt;
+The last one is the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;desc&lt;/code&gt; parameter which adds a description for the option,when printing out the full usage for a command.&lt;br /&gt;
+for example:&lt;/p&gt;
+
+&lt;p&gt;If you run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;thor post:help new&lt;/code&gt; you should see the following output:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Usage:
+  thor post:new TITLE
+
+Options:
+  -d, [--date=DATE]          # Change the current time to the value provided
+                             # Default: 2014-10-16 *the current date*
+  -c, [--category=CATEGORY]  # Add the post&apos;s category
+                             # Default: General
+  -t, [--tags=TAGS]          # Add post tags, comma-separated string
+
+Create a new post
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;So that command to generate this post was:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;thor post:new Automatically create jekyll posts with Thor -c Programming -t &quot;Programming, Jekyll, Thor, Ruby, Automation&quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;which creates the file &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts/2014-10-16-automatically-create-jekyll-posts-with-thor.md&lt;/code&gt; and opens it in your default editor (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;printenv | grep EDITOR&lt;/code&gt;).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Optional&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;You can create an executable file in the current directory and start the simple CLI with a call to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Post.start(ARGV)&lt;/code&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;#!/usr/bin/env ruby
+require &apos;./post&apos;
+
+trap(&apos;SIGINT&apos;) do
+  puts &quot;\nInterrupt received exiting...&quot;
+  exit
+end
+
+Post.start(ARGV)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;In this configuration, which can be useful in some cases
+you have to change the main script to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.rb&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;To execute the post task you have to run 
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ruby create_post new TITLE, [Options]&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Future work&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;In a future post I’ll be writing how I have automated the photo essay posts generation which are not markdown files but complex HTML files.&lt;/p&gt;
+
+&lt;p&gt;&lt;sup&gt;&lt;em&gt;references: https://jonasforsberg.se/2012/12/28/create-jekyll-posts-from-the-command-line&lt;/em&gt;&lt;/sup&gt;&lt;/p&gt;
 </content>
    </entry>
  
    <entry>
-     <title>Josef Koudelka - Exiles</title>
-     <link href="https://indicator0.github.io/posts/josef_koudelka_exiles"/>
-     <updated>2014-08-05T00:00:00+02:00</updated>
-     <id>https://indicator0.github.io/posts/josef_koudelka_exiles</id>
-     <content type="html">&lt;p&gt;&lt;strong&gt;Just republished&lt;/strong&gt;—one of the all-time great photo books.&lt;/p&gt;
+     <title>Hello World</title>
+     <link href="https://indicator0.github.io/posts/hello_world"/>
+     <updated>2022-07-20T00:00:00+02:00</updated>
+     <id>https://indicator0.github.io/posts/hello_world</id>
+     <content type="html">&lt;p&gt;** Hi,
+   This is my first blog on my photography site.&lt;/p&gt;
 
-&lt;p&gt;To me, &lt;a href=&quot;https://www.magnumphotos.com/C.aspx?VP3=CMS3&amp;amp;VF=MAGO31_10_VForm&amp;amp;ERID=24KL535C7T&quot;&gt;Josef Koudelka&lt;/a&gt; is one of the most brilliant photographers out there and his books ‘Exiles’ and ‘Gypsies’ are the masterpieces that made his reputation.&lt;br /&gt;
-His work combines ethnography, photojournalism and landscape photography in the best possible way.&lt;/p&gt;
+&lt;p&gt;To some extent, building a website is what I dedicated (if time allows) to do.
+   Sharing photos with a hierarchical order and appying the style I love.
+   For me, true simplicity is derived from so much more that just the absence of clutter and ornamentation, it is about bringing order to complexity.&lt;/p&gt;
 
-&lt;p&gt;Unfortunately, many of his photo collections are expensive and difficult to find so this one is a real bargain.&lt;/p&gt;
+&lt;p&gt;Here, I will share my photo posts and ideas. Hope you enjoy it.&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;You can order the book from &lt;a href=&quot;https://www.amazon.com/Josef-Koudelka-Exiles-Czeslaw-Milosz/dp/1597112690/&quot; title=&quot;Josef Koudelka: Exiles Hardcover&quot;&gt;Amazon.com&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;** Waldo&lt;/p&gt;
+</content>
+   </entry>
+ 
+   <entry>
+     <title>My Photography gears</title>
+     <link href="https://indicator0.github.io/posts/my_gear"/>
+     <updated>2012-09-03T00:00:00+02:00</updated>
+     <id>https://indicator0.github.io/posts/my_gear</id>
+     <content type="html">&lt;p&gt;&lt;strong&gt;Photography is not about gears&lt;/strong&gt;—but gears matter.&lt;/p&gt;
+
+&lt;p&gt;To me, &lt;a href=&quot;https://www.nikon.se/sv_SE/product/digital-cameras/slr/professional/d850&quot;&gt;D850&lt;/a&gt; is the most important one.
+As a full-frame 135 DSLR, it satisfies all the performance I need (both photography performance and controlling performance).
+F mount provides me with the ability to connect the world most versatile and reliable lens group. From 1950s to now.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/posts/josef_kudelka/josef_kudelka_dog.jpg&quot; alt=&quot;Josef Kudelka&quot; title=&quot;Josef Koudelka&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/posts/my_gear/1035520.jpg&quot; alt=&quot;Web&quot; title=&quot;Web&quot; /&gt;&lt;/p&gt;
 &lt;blockquote&gt;
-  &lt;p&gt;FRANCE. Hauts-de-Seine. Parc de Sceaux. 1987&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/posts/josef_kudelka/josef_kudelka_sea.jpg&quot; alt=&quot;Josef Kudelka&quot; title=&quot;Josef Koudelka&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;PORTUGAL. S. Bartolomeu Do Mar. 1976&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/posts/josef_kudelka/josef_kudelka_horse.jpg&quot; alt=&quot;Josef Kudelka&quot; title=&quot;Josef Koudelka&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;FRANCE. Brittany. Gypsies. 1973&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/posts/josef_kudelka/josef_kudelka_pee.jpg&quot; alt=&quot;Josef Kudelka&quot; title=&quot;Josef Koudelka&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;IRELAND. 1976&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/posts/josef_kudelka/josef_kudelka_road.png&quot; alt=&quot;Josef Kudelka&quot; title=&quot;Josef Koudelka&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;NORTHERN IRELAND. 1978&lt;/p&gt;
+  &lt;p&gt;NIKON D850&lt;/p&gt;
 &lt;/blockquote&gt;
 </content>
    </entry>
