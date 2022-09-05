@@ -4,12 +4,32 @@
  <title>indicator0.github.io</title>
  <link href="https://indicator0.github.io/atom.xml" rel="self"/>
  <link href="https://indicator0.github.io/"/>
- <updated>2022-09-04T21:45:49+02:00</updated>
+ <updated>2022-09-05T13:32:22+02:00</updated>
  <id>https://indicator0.github.io/</id>
  <author>
    <name>indicator0.github.io</name>
  </author>
 
+ 
+   <entry>
+     <title>My Photography gears</title>
+     <link href="https://indicator0.github.io/posts/my_gear"/>
+     <updated>2022-09-03T00:00:00+02:00</updated>
+     <id>https://indicator0.github.io/posts/my_gear</id>
+     <content type="html">&lt;p&gt;&lt;strong&gt;Photography is not about gears&lt;/strong&gt;—but gears matter.&lt;/p&gt;
+
+&lt;p&gt;To me, &lt;a href=&quot;https://www.nikon.se/sv_SE/product/digital-cameras/slr/professional/d850&quot;&gt;D850&lt;/a&gt; is the most important one.
+As a full-frame 135 DSLR, it satisfies all the performance I need (both photography performance and controlling performance).
+F mount provides me with the ability to connect the world most versatile and reliable lens group. From 1950s to now.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/posts/my_gear/1035520.jpg&quot; alt=&quot;Web&quot; title=&quot;Web&quot; /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;NIKON D850&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+   </entry>
  
    <entry>
      <title>Automatically create Jekyll posts with Thor</title>
@@ -178,7 +198,7 @@ you have to change the main script to &lt;code class=&quot;language-plaintext hi
      <link href="https://indicator0.github.io/posts/hello_world"/>
      <updated>2022-07-20T00:00:00+02:00</updated>
      <id>https://indicator0.github.io/posts/hello_world</id>
-     <content type="html">&lt;p&gt;** Hi,
+     <content type="html">&lt;p&gt;&lt;strong&gt;Hi&lt;/strong&gt;,
    This is my first blog on my photography site.&lt;/p&gt;
 
 &lt;p&gt;To some extent, building a website is what I dedicated (if time allows) to do.
@@ -187,27 +207,7 @@ you have to change the main script to &lt;code class=&quot;language-plaintext hi
 
 &lt;p&gt;Here, I will share my photo posts and ideas. Hope you enjoy it.&lt;/p&gt;
 
-&lt;p&gt;** Waldo&lt;/p&gt;
-</content>
-   </entry>
- 
-   <entry>
-     <title>My Photography gears</title>
-     <link href="https://indicator0.github.io/posts/my_gear"/>
-     <updated>2012-09-03T00:00:00+02:00</updated>
-     <id>https://indicator0.github.io/posts/my_gear</id>
-     <content type="html">&lt;p&gt;&lt;strong&gt;Photography is not about gears&lt;/strong&gt;—but gears matter.&lt;/p&gt;
-
-&lt;p&gt;To me, &lt;a href=&quot;https://www.nikon.se/sv_SE/product/digital-cameras/slr/professional/d850&quot;&gt;D850&lt;/a&gt; is the most important one.
-As a full-frame 135 DSLR, it satisfies all the performance I need (both photography performance and controlling performance).
-F mount provides me with the ability to connect the world most versatile and reliable lens group. From 1950s to now.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/posts/my_gear/1035520.jpg&quot; alt=&quot;Web&quot; title=&quot;Web&quot; /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;NIKON D850&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Waldo&lt;/strong&gt;&lt;/p&gt;
 </content>
    </entry>
  

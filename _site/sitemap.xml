@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
     <url>
+      <loc>https://indicator0.github.io/posts/my_gear</loc>
+      
+        <lastmod>2022-09-03T00:00:00+02:00</lastmod>
+      
+    </url>
+    
+    <url>
       <loc>https://indicator0.github.io/posts/automatically-create-jekyll-posts-with-thor</loc>
       
         <lastmod>2022-09-02T00:00:00+02:00</lastmod>
@@ -12,13 +19,6 @@
       <loc>https://indicator0.github.io/posts/hello_world</loc>
       
         <lastmod>2022-07-20T00:00:00+02:00</lastmod>
-      
-    </url>
-    
-    <url>
-      <loc>https://indicator0.github.io/posts/my_gear</loc>
-      
-        <lastmod>2012-09-03T00:00:00+02:00</lastmod>
       
     </url>
     
