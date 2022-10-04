@@ -1,0 +1,45 @@
+---
+layout: photo_post
+title: Aurora i Uppsala
+description: The burst of the sun shines in night.
+group: "photo_navigation"
+path: photo_essays
+next_project: Home Story
+next_project_path: "home_story"
+categories: [Phtography, Digital, Color]
+images:
+  - home_story_1.jpg
+  - home_story_2.jpg
+  - home_story_3.jpg
+  - home_story_4.jpg
+  - home_story_5.jpg
+  - home_story_6.jpg
+---
+
+<section class="byline">
+  <ul class="project-icons">
+    <li>
+      <i class="fa fa-calendar-o"></i> Autumn 2022
+    </li>
+    <li>
+      <i class="fa fa-map-marker"></i> SE - Uppsala
+    </li>
+    <li>
+      <i class="fa fa-camera"></i> Nikon D850
+    </li>
+    <li>
+      <i class="fa fa-film"></i> Digital
+    </li>
+  </ul>
+</section>
+<div class="intro-text">
+  <blockquote>
+    The sun shines in night, not for hot, but for chill.
+  </blockquote>
+</div>
+
+<ul>
+  {% for img in page.images %}
+    <li><a href="/uploads/home_story/{{img}}" data-lightbox="image-1"><img src="/uploads/home_story/{{img}}"alt="{{img}}" /></a></li>
+  {% endfor %}
+</ul>
