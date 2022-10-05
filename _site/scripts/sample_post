@@ -193,28 +193,29 @@
     <section class="byline">
   <ul class="project-icons">
     <li>
-      <i class="fa fa-calendar-o"></i> Autumn 2022
+      <i class="fa fa-calendar-o"></i> Summer 2022
     </li>
     <li>
-      <i class="fa fa-map-marker"></i> SE - Uppsala
+      <i class="fa fa-map-marker"></i> CN - BJ
     </li>
     <li>
-      <i class="fa fa-camera"></i> Nikon D850
+      <i class="fa fa-camera"></i> Canon EOS 5
     </li>
     <li>
-      <i class="fa fa-film"></i> Digital
+      <i class="fa fa-film"></i> Provia 100f
     </li>
   </ul>
 </section>
 <div class="intro-text">
   <blockquote>
-    The burst of the sun shines in night, not for hot, but for chill.
+    You are too familiar with things happen around your home <br>
+    But things are also interesting.
   </blockquote>
 </div>
 
 <ul>
   
-    <li><a href="/uploads/aurora_i_uppsala/--number_of_photos--" data-lightbox="image-1"><img src="/uploads/aurora_i_uppsala/--number_of_photos--"alt="--number_of_photos--" /></a></li>
+    <li><a href="/uploads/home_story/--number_of_photos--" data-lightbox="image-1"><img src="/uploads/home_story/--number_of_photos--"alt="--number_of_photos--" /></a></li>
   
 </ul>
 

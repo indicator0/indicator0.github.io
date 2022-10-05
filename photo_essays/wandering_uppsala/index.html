@@ -1,0 +1,49 @@
+---
+layout: photo_post
+title: Wandering in Uppsala
+description: The first time I really have a look at the place I live.
+group: "photo_navigation"
+path: photo_essays
+next_project: Aurora i Uppsala
+next_project_path: "aurora_i_uppsala"
+categories: [Phtography, Digital, Color]
+images:
+  - wandering_uppsala_1.jpg
+  - wandering_uppsala_2.jpg
+  - wandering_uppsala_3.jpg
+  - wandering_uppsala_4.jpg
+  - wandering_uppsala_5.jpg
+  - wandering_uppsala_6.jpg
+  - wandering_uppsala_7.jpg
+  - wandering_uppsala_8.jpg
+  - wandering_uppsala_9.jpg
+  - wandering_uppsala_10.jpg
+---
+
+<section class="byline">
+  <ul class="project-icons">
+    <li>
+      <i class="fa fa-calendar-o"></i> Autumn 2022
+    </li>
+    <li>
+      <i class="fa fa-map-marker"></i> SE - Uppsala
+    </li>
+    <li>
+      <i class="fa fa-camera"></i> Nikon D850
+    </li>
+    <li>
+      <i class="fa fa-film"></i> Digital
+    </li>
+  </ul>
+</section>
+<div class="intro-text">
+  <blockquote>
+    The first time I really have a look at the place I live.
+  </blockquote>
+</div>
+
+<ul>
+  {% for img in page.images %}
+    <li><a href="/uploads/wandering_uppsala/{{img}}" data-lightbox="image-1"><img src="/uploads/wandering_uppsala/{{img}}"alt="{{img}}" /></a></li>
+  {% endfor %}
+</ul>
