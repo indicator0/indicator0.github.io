@@ -1,0 +1,49 @@
+---
+layout: photo_post
+title: Jul Marknad
+description: Swedish for "Christmas Market", it should be the taste of candy and wine.
+group: "photo_navigation"
+path: photo_essays
+next_project: Tallinn & Helsinki
+next_project_path: "tallinn_helsinki"
+categories: [Phtography, Digital, Color]
+images:
+  - jul_marknad_1.jpg
+  - jul_marknad_2.jpg
+  - jul_marknad_3.jpg
+  - jul_marknad_4.jpg
+  - jul_marknad_5.jpg
+  - jul_marknad_6.jpg
+  - jul_marknad_7.jpg
+  - jul_marknad_8.jpg
+  - jul_marknad_9.jpg
+  - jul_marknad_10.jpg
+---
+
+<section class="byline">
+  <ul class="project-icons">
+    <li>
+      <i class="fa fa-calendar-o"></i> Winter 2022
+    </li>
+    <li>
+      <i class="fa fa-map-marker"></i> SE - Sigtuna
+    </li>
+    <li>
+      <i class="fa fa-camera"></i> Nikon D850 & iPhone 14 Pro
+    </li>
+    <li>
+      <i class="fa fa-film"></i> Digital
+    </li>
+  </ul>
+</section>
+<div class="intro-text">
+  <blockquote>
+    The taste of candy and wine.
+  </blockquote>
+</div>
+
+<ul>
+  {% for img in page.images %}
+    <li><a href="/uploads/jul_marknad/{{img}}" data-lightbox="image-1"><img src="/uploads/jul_marknad/{{img}}"alt="{{img}}" /></a></li>
+  {% endfor %}
+</ul>
