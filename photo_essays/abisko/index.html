@@ -1,0 +1,49 @@
+---
+layout: photo_post
+title: 68°21'32'' N
+description: Arctic Circle, finally I am here. Abisko.
+group: "photo_navigation"
+path: photo_essays
+next_project: Jul Marknad
+next_project_path: "jul_marknad"
+categories: [Phtography, Digital, Color]
+images:
+  - abisko_1.jpg
+  - abisko_2.jpg
+  - abisko_3.jpg
+  - abisko_4.jpg
+  - abisko_5.jpg
+  - abisko_6.jpg
+  - abisko_7.jpg
+  - abisko_8.jpg
+  - abisko_9.jpg
+  - abisko_10.jpg
+---
+
+<section class="byline">
+  <ul class="project-icons">
+    <li>
+      <i class="fa fa-calendar-o"></i> Winter 2022
+    </li>
+    <li>
+      <i class="fa fa-map-marker"></i> SE - Abisko
+    </li>
+    <li>
+      <i class="fa fa-camera"></i> Nikon D850 & iPhone 14 Pro
+    </li>
+    <li>
+      <i class="fa fa-film"></i> Digital
+    </li>
+  </ul>
+</section>
+<div class="intro-text">
+  <blockquote>
+    I have been to the arctic circle, the night and cold here was pure. 
+  </blockquote>
+</div>
+
+<ul>
+  {% for img in page.images %}
+    <li><a href="/uploads/abisko/{{img}}" data-lightbox="image-1"><img src="/uploads/abisko/{{img}}"alt="{{img}}" /></a></li>
+  {% endfor %}
+</ul>
