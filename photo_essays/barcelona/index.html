@@ -1,0 +1,54 @@
+---
+layout: photo_post
+title: Balmy days and Gaudi
+description: Life, sea, sunset and Gaudi.
+group: "photo_navigation"
+path: photo_essays
+next_project: 68°21'32'' N
+next_project_path: "abisko"
+categories: [Phtography, Digital, Color]
+images:
+  - barcelona_1.jpg
+  - barcelona_2.jpg
+  - barcelona_3.jpg
+  - barcelona_4.jpg
+  - barcelona_5.jpg
+  - barcelona_6.jpg
+  - barcelona_7.jpg
+  - barcelona_8.jpg
+  - barcelona_9.jpg
+  - barcelona_10.jpg
+  - barcelona_11.jpg
+  - barcelona_12.jpg
+  - barcelona_13.jpg
+  - barcelona_14.jpg
+  - barcelona_15.jpg
+---
+
+<section class="byline">
+  <ul class="project-icons">
+    <li>
+      <i class="fa fa-calendar-o"></i> Winter 2022
+    </li>
+    <li>
+      <i class="fa fa-map-marker"></i> ES - Barcelona
+    </li>
+    <li>
+      <i class="fa fa-camera"></i> Nikon D850
+    </li>
+    <li>
+      <i class="fa fa-film"></i> Digital
+    </li>
+  </ul>
+</section>
+<div class="intro-text">
+  <blockquote>
+    The beauty of Barcelona is partly bestowed by the God, and partly given by Gaudi. 
+  </blockquote>
+</div>
+
+<ul>
+  {% for img in page.images %}
+    <li><a href="/uploads/barcelona/{{img}}" data-lightbox="image-1"><img src="/uploads/barcelona/{{img}}"alt="{{img}}" /></a></li>
+  {% endfor %}
+</ul>
