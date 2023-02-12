@@ -1,0 +1,50 @@
+---
+layout: photo_post
+title: Dolce Vita
+description: For resilient Venezia.
+group: "photo_navigation"
+path: photo_essays
+next_project: Balmy days and Gaudi
+next_project_path: "barcelona"
+categories: [Phtography, Digital, Color]
+images:
+  - venice_1.jpg
+  - venice_2.jpg
+  - venice_3.jpg
+  - venice_4.jpg
+  - venice_5.jpg
+  - venice_6.jpg
+  - venice_7.jpg
+  - venice_8.jpg
+  - venice_9.jpg
+  - venice_10.jpg
+  - venice_11.jpg
+---
+
+<section class="byline">
+  <ul class="project-icons">
+    <li>
+      <i class="fa fa-calendar-o"></i> Feb 2023
+    </li>
+    <li>
+      <i class="fa fa-map-marker"></i> IT - Venice
+    </li>
+    <li>
+      <i class="fa fa-camera"></i> iPhone 14 Pro
+    </li>
+    <li>
+      <i class="fa fa-film"></i> Digital
+    </li>
+  </ul>
+</section>
+<div class="intro-text">
+  <blockquote>
+    Venetians are good merchants and master of living. 
+  </blockquote>
+</div>
+
+<ul>
+  {% for img in page.images %}
+    <li><a href="/uploads/venice/{{img}}" data-lightbox="image-1"><img src="/uploads/venice/{{img}}"alt="{{img}}" /></a></li>
+  {% endfor %}
+</ul>
