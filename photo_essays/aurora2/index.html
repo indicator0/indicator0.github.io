@@ -1,0 +1,45 @@
+---
+layout: photo_post
+title: Palette of the nature
+description: Romance of the universe.
+group: "photo_navigation"
+path: photo_essays
+next_project: Dolce Vita
+next_project_path: "venice"
+categories: [Phtography, Digital, Color]
+images:
+  - aurora2_1.jpg
+  - aurora2_2.jpg
+  - aurora2_3.jpg
+  - aurora2_4.jpg
+  - aurora2_5.jpg
+  - aurora2_6.jpg
+---
+
+<section class="byline">
+  <ul class="project-icons">
+    <li>
+      <i class="fa fa-calendar-o"></i> Feb 2023
+    </li>
+    <li>
+      <i class="fa fa-map-marker"></i> SE - Uppsala - Gamla Uppsala
+    </li>
+    <li>
+      <i class="fa fa-camera"></i> D850 + 20mm f1.8G
+    </li>
+    <li>
+      <i class="fa fa-film"></i> Digital
+    </li>
+  </ul>
+</section>
+<div class="intro-text">
+  <blockquote>
+    Palette of the nature. Samis say that this is the road to heaven. 
+  </blockquote>
+</div>
+
+<ul>
+  {% for img in page.images %}
+    <li><a href="/uploads/aurora2/{{img}}" data-lightbox="image-1"><img src="/uploads/aurora2/{{img}}"alt="{{img}}" /></a></li>
+  {% endfor %}
+</ul>
