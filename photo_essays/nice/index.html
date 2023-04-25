@@ -1,0 +1,48 @@
+---
+layout: photo_post
+title: C'est la vie
+description: Seashore and sunlight.
+group: "photo_navigation"
+path: photo_essays
+next_project: Palette of the nature
+next_project_path: "aurora2"
+categories: [Phtography, Digital, Color]
+images:
+  - nice_1.jpg
+  - nice_2.jpg
+  - nice_3.jpg
+  - nice_4.jpg
+  - nice_5.jpg
+  - nice_6.jpg
+  - nice_7.jpg
+  - nice_8.jpg
+  - nice_9.jpg
+---
+
+<section class="byline">
+  <ul class="project-icons">
+    <li>
+      <i class="fa fa-calendar-o"></i> Apr 2023
+    </li>
+    <li>
+      <i class="fa fa-map-marker"></i> FR - Nice & MN - Monte Carlo
+    </li>
+    <li>
+      <i class="fa fa-camera"></i> iPhone 14 Pro
+    </li>
+    <li>
+      <i class="fa fa-film"></i> Digital
+    </li>
+  </ul>
+</section>
+<div class="intro-text">
+  <blockquote>
+    C'est la vie! You deserve the sunlight
+  </blockquote>
+</div>
+
+<ul>
+  {% for img in page.images %}
+    <li><a href="/uploads/nice/{{img}}" data-lightbox="image-1"><img src="/uploads/nice/{{img}}"alt="{{img}}" /></a></li>
+  {% endfor %}
+</ul>
