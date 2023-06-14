@@ -1,0 +1,51 @@
+---
+layout: photo_post
+title: Viva la Vida
+description: Afterall, this is Paris!
+group: "photo_navigation"
+path: photo_essays
+next_project: C'est la vie
+next_project_path: "nice"
+categories: [Phtography, Digital, Color]
+images:
+  - paris_1.jpg
+  - paris_2.jpg
+  - paris_3.jpg
+  - paris_4.jpg
+  - paris_5.jpg
+  - paris_6.jpg
+  - paris_7.jpg
+  - paris_8.jpg
+  - paris_9.jpg
+  - paris_10.jpg
+  - paris_11.jpg
+  - paris_12.jpg
+---
+
+<section class="byline">
+  <ul class="project-icons">
+    <li>
+      <i class="fa fa-calendar-o"></i> May 2023
+    </li>
+    <li>
+      <i class="fa fa-map-marker"></i> FR - Paris
+    </li>
+    <li>
+      <i class="fa fa-camera"></i> Nikon D850
+    </li>
+    <li>
+      <i class="fa fa-film"></i> Digital
+    </li>
+  </ul>
+</section>
+<div class="intro-text">
+  <blockquote>
+    Voulez-vous commander un croissant?
+  </blockquote>
+</div>
+
+<ul>
+  {% for img in page.images %}
+    <li><a href="/uploads/paris/{{img}}" data-lightbox="image-1"><img src="/uploads/paris/{{img}}"alt="{{img}}" /></a></li>
+  {% endfor %}
+</ul>

@@ -1,0 +1,50 @@
+---
+layout: photo_post
+title: Roman Holiday
+description: “Rome! By all means, Rome. I will cherish my visit here in memory as long as I live.”
+group: "photo_navigation"
+path: photo_essays
+next_project: Viva la Vida
+next_project_path: "paris"
+categories: [Phtography, Digital and Film, Color and B&W]
+images:
+  - roma_1.jpg
+  - roma_2.jpg
+  - roma_3.jpg
+  - roma_4.jpg
+  - roma_5.jpg
+  - roma_6.jpg
+  - roma_7.jpg
+  - roma_8.jpg
+  - roma_9.jpg
+  - roma_10.jpg
+  - roma_11.jpg
+---
+
+<section class="byline">
+  <ul class="project-icons">
+    <li>
+      <i class="fa fa-calendar-o"></i> Jun 2023
+    </li>
+    <li>
+      <i class="fa fa-map-marker"></i> IT - Roma
+    </li>
+    <li>
+      <i class="fa fa-camera"></i> Fujifilm X-S10 & Instax Mini 11
+    </li>
+    <li>
+      <i class="fa fa-film"></i> Digital and Film
+    </li>
+  </ul>
+</section>
+<div class="intro-text">
+  <blockquote>
+    Lift up your head princess, if not, the crown falls.
+  </blockquote>
+</div>
+
+<ul>
+  {% for img in page.images %}
+    <li><a href="/uploads/roma/{{img}}" data-lightbox="image-1"><img src="/uploads/roma/{{img}}"alt="{{img}}" /></a></li>
+  {% endfor %}
+</ul>
