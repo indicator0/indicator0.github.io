@@ -1,0 +1,49 @@
+---
+layout: photo_post
+title: All the way north
+description: Go for it now.
+path: photo_essays
+next_project: Roman Holiday
+next_project_path: "roma"
+categories: [Phtography, Digital, Color]
+images:
+  - stavanger_1.jpg
+  - stavanger_2.jpg
+  - stavanger_3.jpg
+  - stavanger_4.jpg
+  - stavanger_5.jpg
+  - stavanger_6.jpg
+  - stavanger_7.jpg
+  - stavanger_8.jpg
+  - stavanger_9.jpg
+  - stavanger_10.jpg
+  - stavanger_11.jpg
+---
+
+<section class="byline">
+  <ul class="project-icons">
+    <li>
+      <i class="fa fa-calendar-o"></i> Jun 2023
+    </li>
+    <li>
+      <i class="fa fa-map-marker"></i> IT - Roma
+    </li>
+    <li>
+      <i class="fa fa-camera"></i> Nikon D850 & D7100
+    </li>
+    <li>
+      <i class="fa fa-film"></i> Digital
+    </li>
+  </ul>
+</section>
+<div class="intro-text">
+  <blockquote>
+    Lift up your head princess, if not, the crown falls.
+  </blockquote>
+</div>
+
+<ul>
+  {% for img in page.images %}
+    <li><a href="/uploads/stavanger/{{img}}" data-lightbox="image-1"><img src="/uploads/stavanger/{{img}}"alt="{{img}}" /></a></li>
+  {% endfor %}
+</ul>
